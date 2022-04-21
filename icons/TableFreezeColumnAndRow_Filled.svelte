@@ -1,0 +1,10 @@
+<script>
+    import IconBase from "../components/IconBase.svelte";
+</script>
+
+<IconBase
+    title="Table Freeze Column And Row"
+    viewBox="0 0 20 20"
+    data="M 0 0 Z M 20 20 Z M5.5 3C4.11929 3 3 4.11929 3 5.5V14.5C3 15.8807 4.11929 17 5.5 17L12 17V13H8V16H5.5C4.67157 16 4 15.3284 4 14.5V5.5C4 4.67157 4.67157 4 5.5 4H14.5C15.3284 4 16 4.67157 16 5.5L16 8H13V12H17L17 5.5C17 4.11929 15.8807 3 14.5 3H5.5ZM14.5 17H13V13H17V14.5C17 15.8807 15.8807 17 14.5 17ZM8 12H12V8H8V12Z"
+    {...$$props}
+/>

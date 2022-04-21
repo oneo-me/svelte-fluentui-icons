@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "label": "run",
+            "script": "dev",
+        },
+        {
+            "type": "npm",
+            "label": "build",
+            "script": "build",
+        }
+    ]
+}
