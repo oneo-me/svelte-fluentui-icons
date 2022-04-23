@@ -25,19 +25,27 @@
         source = Icons;
         onInput();
     });
+
+    let copyKey = "";
+
+    function handleCopy(event) {
+        copyKey = event.detail;
+
+        console.log(copyKey);
+    }
 </script>
 
 <div
     class="sticky top-0 z-40 w-full
     backdrop-blur
-    bg-white supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75
+    bg-white/90 dark:bg-slate-900/75
     border-b border-slate-900/10 dark:border-slate-50/[0.06]
     mb-10"
 >
     <div
         class="container mx-auto p-4
             text-lg
-            flex flex-row"
+            flex flex-row gap-3"
     >
         <div class="basis-1/3">
             <form class="group relative">
@@ -78,20 +86,19 @@
                 underline underline-offset-4
                 text-slate-600 dark:text-white
                 hover:text-cyan-500 dark:hover:text-cyan-300"
-                href="/">Svelte Fluent UI Icons</a
+                href="/svelte-fluentui-icons"
+                >Svelte Fluent UI Icons</a
             >
         </div>
-        <div class="basis-1/3">
-            <div class=" flex gap-2 justify-end">
-                <a
-                    href="https://github.com/1217950746/svelte-fluentui-icons"
-                    target="_break"
-                    class="flex items-stretch gap-1
-            text-slate-600 dark:text-white
-            hover:text-cyan-500 dark:hover:text-cyan-300"
-                    ><Github_Filled class="self-center" />
-                </a>
-            </div>
+        <div class="basis-1/3 grid justify-items-stretch items-stretch">
+            <a
+                href="https://github.com/1217950746/svelte-fluentui-icons"
+                target="_break"
+                class="justify-self-end self-center
+                    text-slate-600 dark:text-white
+                    hover:text-cyan-500 dark:hover:text-cyan-300"
+                ><Github_Filled size="32" />
+            </a>
         </div>
     </div>
 </div>
@@ -99,7 +106,7 @@
 <div class="container mx-auto px-4">
     <div class="flex flex-wrap justify-center gap-8 my-4">
         {#each icons as icon}
-            <Icon key={icon.key} value={icon.value} />
+            <Icon key={icon.key} value={icon.value} on:copy={handleCopy} />
         {/each}
     </div>
 </div>
@@ -113,6 +120,7 @@
     text-slate-800 dark:text-slate-300 text-center"
     >
         <p>
+            由
             <a
                 class="no-underline hover:underline text-cyan-600 dark:text-cyan-400"
                 href="https://github.com/1217950746"
