@@ -1,7 +1,7 @@
 <script>
     export let title = null;
     export let data = null;
-    export let size = 26;
+    export let size = 22;
     export let viewBox;
 </script>
 
@@ -9,6 +9,7 @@
     xmlns="http://www.w3.org/2000/svg"
     {viewBox}
     style="width: {size}px; height: {size}px"
+    {...$$props}
 >
     {#if title}
         <title>{title}</title>
