@@ -7,7 +7,7 @@
 安装
 
 ```bash
-npm install svelte-fluentui-icons
+npm install -D svelte-fluentui-icons
 ```
 
 使用
@@ -19,11 +19,6 @@ npm install svelte-fluentui-icons
     import Github_Filled from 'svelte-fluentui-icons/icons/Github_Filled.svelte';
 </script>
 
-<Github_Filled class="icon" size="32" />
-
-<style>
-    .icon {
-        color: red;
-    }
-</style>
+<Github_Filled />
+<Github_Filled size="32" />
 ```
