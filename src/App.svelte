@@ -53,7 +53,7 @@
                     size="20"
                     class="absolute left-3 top-1/2 -mt-2.5
                         text-slate-400 pointer-events-none
-                        group-focus-within:text-cyan-300
+                        group-focus-within:text-cyan-500
                         dark:group-focus-within:text-cyan-500"
                     aria-hidden="true"
                 />
@@ -70,8 +70,8 @@
 
                     ring-1 focus:outline-none
 
-                    ring-slate-200 ring-slate-600 focus:ring-cyan-500
-                    dark:ring-slate-200 dark:ring-slate-600 dark:focus:ring-cyan-300
+                    ring-slate-600 focus:ring-cyan-500
+                    dark:ring-slate-200 dark:focus:ring-cyan-300
 
                     appearance-none text-sm"
                     type="text"
@@ -86,8 +86,7 @@
                 underline underline-offset-4
                 text-slate-600 dark:text-white
                 hover:text-cyan-500 dark:hover:text-cyan-300"
-                href="/svelte-fluentui-icons"
-                >Svelte Fluent UI Icons</a
+                href="/svelte-fluentui-icons">Svelte Fluent UI Icons</a
             >
         </div>
         <div class="basis-1/3 grid justify-items-stretch items-stretch">
