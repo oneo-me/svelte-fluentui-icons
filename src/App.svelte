@@ -47,38 +47,36 @@
             text-lg
             flex flex-row gap-3"
     >
-        <div class="basis-1/3">
-            <form class="group relative">
-                <Search_Filled
-                    size="20"
-                    class="absolute left-3 top-1/2 -mt-2.5
-                        text-slate-400 pointer-events-none
-                        group-focus-within:text-cyan-500
-                        dark:group-focus-within:text-cyan-500"
-                    aria-hidden="true"
-                />
-                <input
-                    bind:value={keyword}
-                    on:input={onInput}
-                    class="pl-10 py-2
-                    rounded-full
-                    bg-slate-300/10
-                    dark:bg-slate-600/10
+        <div class="basis-1/3 group relative">
+            <Search_Filled
+                size="20"
+                class="absolute left-3 top-1/2 -mt-2.5
+                    text-slate-400 pointer-events-none
+                    group-focus-within:text-cyan-500
+                    dark:group-focus-within:text-cyan-500"
+                aria-hidden="true"
+            />
+            <input
+                bind:value={keyword}
+                on:input={onInput}
+                class="pl-10 py-2
+                rounded-full
+                bg-slate-300/10
+                dark:bg-slate-600/10
 
-                    text-slate-600 placeholder-slate-400
-                    dark:text-white dark:placeholder-slate-100/50
+                text-slate-600 placeholder-slate-400
+                dark:text-white dark:placeholder-slate-100/50
 
-                    ring-1 focus:outline-none
+                ring-1 focus:outline-none
 
-                    ring-slate-600 focus:ring-cyan-500
-                    dark:ring-slate-200 dark:focus:ring-cyan-300
+                ring-slate-600 focus:ring-cyan-500
+                dark:ring-slate-200 dark:focus:ring-cyan-300
 
-                    appearance-none text-sm"
-                    type="text"
-                    aria-label="Search icons"
-                    placeholder="Search icons..."
-                />
-            </form>
+                appearance-none text-sm"
+                type="text"
+                aria-label="Search icons"
+                placeholder="Search icons..."
+            />
         </div>
         <div class="basis-2/3 text-center">
             <a
