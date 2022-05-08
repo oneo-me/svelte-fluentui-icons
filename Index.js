@@ -950,10 +950,14 @@ import ClipboardTaskListRtl_Filled from './icons/ClipboardTaskListRtl_Filled.sve
 import ClipboardTaskListRtl_Regular from './icons/ClipboardTaskListRtl_Regular.svelte';
 import ClipboardTask_Filled from './icons/ClipboardTask_Filled.svelte';
 import ClipboardTask_Regular from './icons/ClipboardTask_Regular.svelte';
+import ClipboardTextEdit_Filled from './icons/ClipboardTextEdit_Filled.svelte';
+import ClipboardTextEdit_Regular from './icons/ClipboardTextEdit_Regular.svelte';
 import ClipboardTextLtr_Filled from './icons/ClipboardTextLtr_Filled.svelte';
 import ClipboardTextLtr_Regular from './icons/ClipboardTextLtr_Regular.svelte';
 import ClipboardTextRtl_Filled from './icons/ClipboardTextRtl_Filled.svelte';
 import ClipboardTextRtl_Regular from './icons/ClipboardTextRtl_Regular.svelte';
+import ClipboardText_Filled from './icons/ClipboardText_Filled.svelte';
+import ClipboardText_Regular from './icons/ClipboardText_Regular.svelte';
 import Clipboard_Filled from './icons/Clipboard_Filled.svelte';
 import Clipboard_Regular from './icons/Clipboard_Regular.svelte';
 import ClockAlarm_Filled from './icons/ClockAlarm_Filled.svelte';
@@ -1981,6 +1985,8 @@ import Iot_Filled from './icons/Iot_Filled.svelte';
 import Iot_Regular from './icons/Iot_Regular.svelte';
 import Javascript_Filled from './icons/Javascript_Filled.svelte';
 import Javascript_Regular from './icons/Javascript_Regular.svelte';
+import Joystick_Filled from './icons/Joystick_Filled.svelte';
+import Joystick_Regular from './icons/Joystick_Regular.svelte';
 import KeyCommand_Filled from './icons/KeyCommand_Filled.svelte';
 import KeyCommand_Regular from './icons/KeyCommand_Regular.svelte';
 import KeyMultiple_Filled from './icons/KeyMultiple_Filled.svelte';
@@ -2508,6 +2514,8 @@ import PersonEdit_Filled from './icons/PersonEdit_Filled.svelte';
 import PersonEdit_Regular from './icons/PersonEdit_Regular.svelte';
 import PersonFeedback_Filled from './icons/PersonFeedback_Filled.svelte';
 import PersonFeedback_Regular from './icons/PersonFeedback_Regular.svelte';
+import PersonHeart_Filled from './icons/PersonHeart_Filled.svelte';
+import PersonHeart_Regular from './icons/PersonHeart_Regular.svelte';
 import PersonInfo_Filled from './icons/PersonInfo_Filled.svelte';
 import PersonInfo_Regular from './icons/PersonInfo_Regular.svelte';
 import PersonKey_Filled from './icons/PersonKey_Filled.svelte';
@@ -3419,6 +3427,10 @@ import TextAddT_Filled from './icons/TextAddT_Filled.svelte';
 import TextAddT_Regular from './icons/TextAddT_Regular.svelte';
 import TextAdd_Filled from './icons/TextAdd_Filled.svelte';
 import TextAdd_Regular from './icons/TextAdd_Regular.svelte';
+import TextAlignCenterRotate270_Filled from './icons/TextAlignCenterRotate270_Filled.svelte';
+import TextAlignCenterRotate270_Regular from './icons/TextAlignCenterRotate270_Regular.svelte';
+import TextAlignCenterRotate90_Filled from './icons/TextAlignCenterRotate90_Filled.svelte';
+import TextAlignCenterRotate90_Regular from './icons/TextAlignCenterRotate90_Regular.svelte';
 import TextAlignCenter_Filled from './icons/TextAlignCenter_Filled.svelte';
 import TextAlignCenter_Regular from './icons/TextAlignCenter_Regular.svelte';
 import TextAlignDistributedEvenly_Filled from './icons/TextAlignDistributedEvenly_Filled.svelte';
@@ -3429,10 +3441,22 @@ import TextAlignDistributed_Filled from './icons/TextAlignDistributed_Filled.sve
 import TextAlignDistributed_Regular from './icons/TextAlignDistributed_Regular.svelte';
 import TextAlignJustifyLow_Filled from './icons/TextAlignJustifyLow_Filled.svelte';
 import TextAlignJustifyLow_Regular from './icons/TextAlignJustifyLow_Regular.svelte';
+import TextAlignJustifyRotate270_Filled from './icons/TextAlignJustifyRotate270_Filled.svelte';
+import TextAlignJustifyRotate270_Regular from './icons/TextAlignJustifyRotate270_Regular.svelte';
+import TextAlignJustifyRotate90_Filled from './icons/TextAlignJustifyRotate90_Filled.svelte';
+import TextAlignJustifyRotate90_Regular from './icons/TextAlignJustifyRotate90_Regular.svelte';
 import TextAlignJustify_Filled from './icons/TextAlignJustify_Filled.svelte';
 import TextAlignJustify_Regular from './icons/TextAlignJustify_Regular.svelte';
+import TextAlignLeftRotate270_Filled from './icons/TextAlignLeftRotate270_Filled.svelte';
+import TextAlignLeftRotate270_Regular from './icons/TextAlignLeftRotate270_Regular.svelte';
+import TextAlignLeftRotate90_Filled from './icons/TextAlignLeftRotate90_Filled.svelte';
+import TextAlignLeftRotate90_Regular from './icons/TextAlignLeftRotate90_Regular.svelte';
 import TextAlignLeft_Filled from './icons/TextAlignLeft_Filled.svelte';
 import TextAlignLeft_Regular from './icons/TextAlignLeft_Regular.svelte';
+import TextAlignRightRotate270_Filled from './icons/TextAlignRightRotate270_Filled.svelte';
+import TextAlignRightRotate270_Regular from './icons/TextAlignRightRotate270_Regular.svelte';
+import TextAlignRightRotate90_Filled from './icons/TextAlignRightRotate90_Filled.svelte';
+import TextAlignRightRotate90_Regular from './icons/TextAlignRightRotate90_Regular.svelte';
 import TextAlignRight_Filled from './icons/TextAlignRight_Filled.svelte';
 import TextAlignRight_Regular from './icons/TextAlignRight_Regular.svelte';
 import TextAsterisk_Filled from './icons/TextAsterisk_Filled.svelte';
@@ -4942,10 +4966,14 @@ export default [
     { key: "ClipboardTaskListRtl_Regular", value: ClipboardTaskListRtl_Regular },
     { key: "ClipboardTask_Filled", value: ClipboardTask_Filled },
     { key: "ClipboardTask_Regular", value: ClipboardTask_Regular },
+    { key: "ClipboardTextEdit_Filled", value: ClipboardTextEdit_Filled },
+    { key: "ClipboardTextEdit_Regular", value: ClipboardTextEdit_Regular },
     { key: "ClipboardTextLtr_Filled", value: ClipboardTextLtr_Filled },
     { key: "ClipboardTextLtr_Regular", value: ClipboardTextLtr_Regular },
     { key: "ClipboardTextRtl_Filled", value: ClipboardTextRtl_Filled },
     { key: "ClipboardTextRtl_Regular", value: ClipboardTextRtl_Regular },
+    { key: "ClipboardText_Filled", value: ClipboardText_Filled },
+    { key: "ClipboardText_Regular", value: ClipboardText_Regular },
     { key: "Clipboard_Filled", value: Clipboard_Filled },
     { key: "Clipboard_Regular", value: Clipboard_Regular },
     { key: "ClockAlarm_Filled", value: ClockAlarm_Filled },
@@ -5973,6 +6001,8 @@ export default [
     { key: "Iot_Regular", value: Iot_Regular },
     { key: "Javascript_Filled", value: Javascript_Filled },
     { key: "Javascript_Regular", value: Javascript_Regular },
+    { key: "Joystick_Filled", value: Joystick_Filled },
+    { key: "Joystick_Regular", value: Joystick_Regular },
     { key: "KeyCommand_Filled", value: KeyCommand_Filled },
     { key: "KeyCommand_Regular", value: KeyCommand_Regular },
     { key: "KeyMultiple_Filled", value: KeyMultiple_Filled },
@@ -6500,6 +6530,8 @@ export default [
     { key: "PersonEdit_Regular", value: PersonEdit_Regular },
     { key: "PersonFeedback_Filled", value: PersonFeedback_Filled },
     { key: "PersonFeedback_Regular", value: PersonFeedback_Regular },
+    { key: "PersonHeart_Filled", value: PersonHeart_Filled },
+    { key: "PersonHeart_Regular", value: PersonHeart_Regular },
     { key: "PersonInfo_Filled", value: PersonInfo_Filled },
     { key: "PersonInfo_Regular", value: PersonInfo_Regular },
     { key: "PersonKey_Filled", value: PersonKey_Filled },
@@ -7411,6 +7443,10 @@ export default [
     { key: "TextAddT_Regular", value: TextAddT_Regular },
     { key: "TextAdd_Filled", value: TextAdd_Filled },
     { key: "TextAdd_Regular", value: TextAdd_Regular },
+    { key: "TextAlignCenterRotate270_Filled", value: TextAlignCenterRotate270_Filled },
+    { key: "TextAlignCenterRotate270_Regular", value: TextAlignCenterRotate270_Regular },
+    { key: "TextAlignCenterRotate90_Filled", value: TextAlignCenterRotate90_Filled },
+    { key: "TextAlignCenterRotate90_Regular", value: TextAlignCenterRotate90_Regular },
     { key: "TextAlignCenter_Filled", value: TextAlignCenter_Filled },
     { key: "TextAlignCenter_Regular", value: TextAlignCenter_Regular },
     { key: "TextAlignDistributedEvenly_Filled", value: TextAlignDistributedEvenly_Filled },
@@ -7421,10 +7457,22 @@ export default [
     { key: "TextAlignDistributed_Regular", value: TextAlignDistributed_Regular },
     { key: "TextAlignJustifyLow_Filled", value: TextAlignJustifyLow_Filled },
     { key: "TextAlignJustifyLow_Regular", value: TextAlignJustifyLow_Regular },
+    { key: "TextAlignJustifyRotate270_Filled", value: TextAlignJustifyRotate270_Filled },
+    { key: "TextAlignJustifyRotate270_Regular", value: TextAlignJustifyRotate270_Regular },
+    { key: "TextAlignJustifyRotate90_Filled", value: TextAlignJustifyRotate90_Filled },
+    { key: "TextAlignJustifyRotate90_Regular", value: TextAlignJustifyRotate90_Regular },
     { key: "TextAlignJustify_Filled", value: TextAlignJustify_Filled },
     { key: "TextAlignJustify_Regular", value: TextAlignJustify_Regular },
+    { key: "TextAlignLeftRotate270_Filled", value: TextAlignLeftRotate270_Filled },
+    { key: "TextAlignLeftRotate270_Regular", value: TextAlignLeftRotate270_Regular },
+    { key: "TextAlignLeftRotate90_Filled", value: TextAlignLeftRotate90_Filled },
+    { key: "TextAlignLeftRotate90_Regular", value: TextAlignLeftRotate90_Regular },
     { key: "TextAlignLeft_Filled", value: TextAlignLeft_Filled },
     { key: "TextAlignLeft_Regular", value: TextAlignLeft_Regular },
+    { key: "TextAlignRightRotate270_Filled", value: TextAlignRightRotate270_Filled },
+    { key: "TextAlignRightRotate270_Regular", value: TextAlignRightRotate270_Regular },
+    { key: "TextAlignRightRotate90_Filled", value: TextAlignRightRotate90_Filled },
+    { key: "TextAlignRightRotate90_Regular", value: TextAlignRightRotate90_Regular },
     { key: "TextAlignRight_Filled", value: TextAlignRight_Filled },
     { key: "TextAlignRight_Regular", value: TextAlignRight_Regular },
     { key: "TextAsterisk_Filled", value: TextAsterisk_Filled },
