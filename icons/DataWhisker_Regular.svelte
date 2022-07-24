@@ -1,4 +1,4 @@
-<script>
+﻿<script>
     import IconBase from "../components/IconBase.svelte";
 </script>
 
