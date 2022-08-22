@@ -1,4 +1,4 @@
-﻿import Accessibility_Filled from './icons/Accessibility_Filled.svelte';
+import Accessibility_Filled from './icons/Accessibility_Filled.svelte';
 import Accessibility_Regular from './icons/Accessibility_Regular.svelte';
 import AccessibilityCheckmark_Filled from './icons/AccessibilityCheckmark_Filled.svelte';
 import AccessibilityCheckmark_Regular from './icons/AccessibilityCheckmark_Regular.svelte';
@@ -810,14 +810,20 @@ import ChartPerson_Filled from './icons/ChartPerson_Filled.svelte';
 import ChartPerson_Regular from './icons/ChartPerson_Regular.svelte';
 import Chat_Filled from './icons/Chat_Filled.svelte';
 import Chat_Regular from './icons/Chat_Regular.svelte';
+import ChatAdd_Filled from './icons/ChatAdd_Filled.svelte';
+import ChatAdd_Regular from './icons/ChatAdd_Regular.svelte';
 import ChatArrowBack_Filled from './icons/ChatArrowBack_Filled.svelte';
 import ChatArrowBack_Regular from './icons/ChatArrowBack_Regular.svelte';
 import ChatArrowDoubleBack_Filled from './icons/ChatArrowDoubleBack_Filled.svelte';
 import ChatArrowDoubleBack_Regular from './icons/ChatArrowDoubleBack_Regular.svelte';
 import ChatBubblesQuestion_Filled from './icons/ChatBubblesQuestion_Filled.svelte';
 import ChatBubblesQuestion_Regular from './icons/ChatBubblesQuestion_Regular.svelte';
+import ChatCursor_Filled from './icons/ChatCursor_Filled.svelte';
+import ChatCursor_Regular from './icons/ChatCursor_Regular.svelte';
 import ChatDismiss_Filled from './icons/ChatDismiss_Filled.svelte';
 import ChatDismiss_Regular from './icons/ChatDismiss_Regular.svelte';
+import ChatEmpty_Filled from './icons/ChatEmpty_Filled.svelte';
+import ChatEmpty_Regular from './icons/ChatEmpty_Regular.svelte';
 import ChatHelp_Filled from './icons/ChatHelp_Filled.svelte';
 import ChatHelp_Regular from './icons/ChatHelp_Regular.svelte';
 import ChatMail_Filled from './icons/ChatMail_Filled.svelte';
@@ -2089,6 +2095,10 @@ import LauncherSettings_Filled from './icons/LauncherSettings_Filled.svelte';
 import LauncherSettings_Regular from './icons/LauncherSettings_Regular.svelte';
 import Layer_Filled from './icons/Layer_Filled.svelte';
 import Layer_Regular from './icons/Layer_Regular.svelte';
+import LayerDiagonal_Filled from './icons/LayerDiagonal_Filled.svelte';
+import LayerDiagonal_Regular from './icons/LayerDiagonal_Regular.svelte';
+import LayerDiagonalPerson_Filled from './icons/LayerDiagonalPerson_Filled.svelte';
+import LayerDiagonalPerson_Regular from './icons/LayerDiagonalPerson_Regular.svelte';
 import LeafOne_Filled from './icons/LeafOne_Filled.svelte';
 import LeafOne_Regular from './icons/LeafOne_Regular.svelte';
 import LeafThree_Filled from './icons/LeafThree_Filled.svelte';
@@ -2560,6 +2570,10 @@ import PersonAccounts_Filled from './icons/PersonAccounts_Filled.svelte';
 import PersonAccounts_Regular from './icons/PersonAccounts_Regular.svelte';
 import PersonAdd_Filled from './icons/PersonAdd_Filled.svelte';
 import PersonAdd_Regular from './icons/PersonAdd_Regular.svelte';
+import PersonAlert_Filled from './icons/PersonAlert_Filled.svelte';
+import PersonAlert_Regular from './icons/PersonAlert_Regular.svelte';
+import PersonArrowBack_Filled from './icons/PersonArrowBack_Filled.svelte';
+import PersonArrowBack_Regular from './icons/PersonArrowBack_Regular.svelte';
 import PersonArrowLeft_Filled from './icons/PersonArrowLeft_Filled.svelte';
 import PersonArrowLeft_Regular from './icons/PersonArrowLeft_Regular.svelte';
 import PersonArrowRight_Filled from './icons/PersonArrowRight_Filled.svelte';
@@ -2590,6 +2604,8 @@ import PersonKey_Filled from './icons/PersonKey_Filled.svelte';
 import PersonKey_Regular from './icons/PersonKey_Regular.svelte';
 import PersonLightbulb_Filled from './icons/PersonLightbulb_Filled.svelte';
 import PersonLightbulb_Regular from './icons/PersonLightbulb_Regular.svelte';
+import PersonLink_Filled from './icons/PersonLink_Filled.svelte';
+import PersonLink_Regular from './icons/PersonLink_Regular.svelte';
 import PersonLock_Filled from './icons/PersonLock_Filled.svelte';
 import PersonLock_Regular from './icons/PersonLock_Regular.svelte';
 import PersonMail_Filled from './icons/PersonMail_Filled.svelte';
@@ -3040,6 +3056,8 @@ import ShareScreenStop_Filled from './icons/ShareScreenStop_Filled.svelte';
 import ShareScreenStop_Regular from './icons/ShareScreenStop_Regular.svelte';
 import Shield_Filled from './icons/Shield_Filled.svelte';
 import Shield_Regular from './icons/Shield_Regular.svelte';
+import ShieldAdd_Filled from './icons/ShieldAdd_Filled.svelte';
+import ShieldAdd_Regular from './icons/ShieldAdd_Regular.svelte';
 import ShieldBadge_Filled from './icons/ShieldBadge_Filled.svelte';
 import ShieldBadge_Regular from './icons/ShieldBadge_Regular.svelte';
 import ShieldCheckmark_Filled from './icons/ShieldCheckmark_Filled.svelte';
@@ -3658,14 +3676,22 @@ import TextDescription_Filled from './icons/TextDescription_Filled.svelte';
 import TextDescription_Regular from './icons/TextDescription_Regular.svelte';
 import TextDirectionHorizontalLeft_Filled from './icons/TextDirectionHorizontalLeft_Filled.svelte';
 import TextDirectionHorizontalLeft_Regular from './icons/TextDirectionHorizontalLeft_Regular.svelte';
+import TextDirectionHorizontalLTR_Filled from './icons/TextDirectionHorizontalLTR_Filled.svelte';
+import TextDirectionHorizontalLTR_Regular from './icons/TextDirectionHorizontalLTR_Regular.svelte';
 import TextDirectionHorizontalRight_Filled from './icons/TextDirectionHorizontalRight_Filled.svelte';
 import TextDirectionHorizontalRight_Regular from './icons/TextDirectionHorizontalRight_Regular.svelte';
+import TextDirectionHorizontalRTL_Filled from './icons/TextDirectionHorizontalRTL_Filled.svelte';
+import TextDirectionHorizontalRTL_Regular from './icons/TextDirectionHorizontalRTL_Regular.svelte';
 import TextDirectionRotate270Right_Filled from './icons/TextDirectionRotate270Right_Filled.svelte';
 import TextDirectionRotate270Right_Regular from './icons/TextDirectionRotate270Right_Regular.svelte';
 import TextDirectionRotate90Left_Filled from './icons/TextDirectionRotate90Left_Filled.svelte';
 import TextDirectionRotate90Left_Regular from './icons/TextDirectionRotate90Left_Regular.svelte';
+import TextDirectionRotate90LTR_Filled from './icons/TextDirectionRotate90LTR_Filled.svelte';
+import TextDirectionRotate90LTR_Regular from './icons/TextDirectionRotate90LTR_Regular.svelte';
 import TextDirectionRotate90Right_Filled from './icons/TextDirectionRotate90Right_Filled.svelte';
 import TextDirectionRotate90Right_Regular from './icons/TextDirectionRotate90Right_Regular.svelte';
+import TextDirectionRotate90RTL_Filled from './icons/TextDirectionRotate90RTL_Filled.svelte';
+import TextDirectionRotate90RTL_Regular from './icons/TextDirectionRotate90RTL_Regular.svelte';
 import TextDirectionVertical_Filled from './icons/TextDirectionVertical_Filled.svelte';
 import TextDirectionVertical_Regular from './icons/TextDirectionVertical_Regular.svelte';
 import TextEditStyle_Filled from './icons/TextEditStyle_Filled.svelte';
@@ -3808,6 +3834,8 @@ import TextWordCount_Filled from './icons/TextWordCount_Filled.svelte';
 import TextWordCount_Regular from './icons/TextWordCount_Regular.svelte';
 import TextWrap_Filled from './icons/TextWrap_Filled.svelte';
 import TextWrap_Regular from './icons/TextWrap_Regular.svelte';
+import TextWrapOff_Filled from './icons/TextWrapOff_Filled.svelte';
+import TextWrapOff_Regular from './icons/TextWrapOff_Regular.svelte';
 import Thinking_Filled from './icons/Thinking_Filled.svelte';
 import Thinking_Regular from './icons/Thinking_Regular.svelte';
 import ThumbDislike_Filled from './icons/ThumbDislike_Filled.svelte';
@@ -3868,6 +3896,8 @@ import TriangleRight_Filled from './icons/TriangleRight_Filled.svelte';
 import TriangleRight_Regular from './icons/TriangleRight_Regular.svelte';
 import Trophy_Filled from './icons/Trophy_Filled.svelte';
 import Trophy_Regular from './icons/Trophy_Regular.svelte';
+import TrophyLock_Filled from './icons/TrophyLock_Filled.svelte';
+import TrophyLock_Regular from './icons/TrophyLock_Regular.svelte';
 import TrophyOff_Filled from './icons/TrophyOff_Filled.svelte';
 import TrophyOff_Regular from './icons/TrophyOff_Regular.svelte';
 import TV_Filled from './icons/TV_Filled.svelte';
@@ -4944,14 +4974,20 @@ export default [
     { key: "ChartPerson_Regular", value: ChartPerson_Regular },
     { key: "Chat_Filled", value: Chat_Filled },
     { key: "Chat_Regular", value: Chat_Regular },
+    { key: "ChatAdd_Filled", value: ChatAdd_Filled },
+    { key: "ChatAdd_Regular", value: ChatAdd_Regular },
     { key: "ChatArrowBack_Filled", value: ChatArrowBack_Filled },
     { key: "ChatArrowBack_Regular", value: ChatArrowBack_Regular },
     { key: "ChatArrowDoubleBack_Filled", value: ChatArrowDoubleBack_Filled },
     { key: "ChatArrowDoubleBack_Regular", value: ChatArrowDoubleBack_Regular },
     { key: "ChatBubblesQuestion_Filled", value: ChatBubblesQuestion_Filled },
     { key: "ChatBubblesQuestion_Regular", value: ChatBubblesQuestion_Regular },
+    { key: "ChatCursor_Filled", value: ChatCursor_Filled },
+    { key: "ChatCursor_Regular", value: ChatCursor_Regular },
     { key: "ChatDismiss_Filled", value: ChatDismiss_Filled },
     { key: "ChatDismiss_Regular", value: ChatDismiss_Regular },
+    { key: "ChatEmpty_Filled", value: ChatEmpty_Filled },
+    { key: "ChatEmpty_Regular", value: ChatEmpty_Regular },
     { key: "ChatHelp_Filled", value: ChatHelp_Filled },
     { key: "ChatHelp_Regular", value: ChatHelp_Regular },
     { key: "ChatMail_Filled", value: ChatMail_Filled },
@@ -6223,6 +6259,10 @@ export default [
     { key: "LauncherSettings_Regular", value: LauncherSettings_Regular },
     { key: "Layer_Filled", value: Layer_Filled },
     { key: "Layer_Regular", value: Layer_Regular },
+    { key: "LayerDiagonal_Filled", value: LayerDiagonal_Filled },
+    { key: "LayerDiagonal_Regular", value: LayerDiagonal_Regular },
+    { key: "LayerDiagonalPerson_Filled", value: LayerDiagonalPerson_Filled },
+    { key: "LayerDiagonalPerson_Regular", value: LayerDiagonalPerson_Regular },
     { key: "LeafOne_Filled", value: LeafOne_Filled },
     { key: "LeafOne_Regular", value: LeafOne_Regular },
     { key: "LeafThree_Filled", value: LeafThree_Filled },
@@ -6694,6 +6734,10 @@ export default [
     { key: "PersonAccounts_Regular", value: PersonAccounts_Regular },
     { key: "PersonAdd_Filled", value: PersonAdd_Filled },
     { key: "PersonAdd_Regular", value: PersonAdd_Regular },
+    { key: "PersonAlert_Filled", value: PersonAlert_Filled },
+    { key: "PersonAlert_Regular", value: PersonAlert_Regular },
+    { key: "PersonArrowBack_Filled", value: PersonArrowBack_Filled },
+    { key: "PersonArrowBack_Regular", value: PersonArrowBack_Regular },
     { key: "PersonArrowLeft_Filled", value: PersonArrowLeft_Filled },
     { key: "PersonArrowLeft_Regular", value: PersonArrowLeft_Regular },
     { key: "PersonArrowRight_Filled", value: PersonArrowRight_Filled },
@@ -6724,6 +6768,8 @@ export default [
     { key: "PersonKey_Regular", value: PersonKey_Regular },
     { key: "PersonLightbulb_Filled", value: PersonLightbulb_Filled },
     { key: "PersonLightbulb_Regular", value: PersonLightbulb_Regular },
+    { key: "PersonLink_Filled", value: PersonLink_Filled },
+    { key: "PersonLink_Regular", value: PersonLink_Regular },
     { key: "PersonLock_Filled", value: PersonLock_Filled },
     { key: "PersonLock_Regular", value: PersonLock_Regular },
     { key: "PersonMail_Filled", value: PersonMail_Filled },
@@ -7174,6 +7220,8 @@ export default [
     { key: "ShareScreenStop_Regular", value: ShareScreenStop_Regular },
     { key: "Shield_Filled", value: Shield_Filled },
     { key: "Shield_Regular", value: Shield_Regular },
+    { key: "ShieldAdd_Filled", value: ShieldAdd_Filled },
+    { key: "ShieldAdd_Regular", value: ShieldAdd_Regular },
     { key: "ShieldBadge_Filled", value: ShieldBadge_Filled },
     { key: "ShieldBadge_Regular", value: ShieldBadge_Regular },
     { key: "ShieldCheckmark_Filled", value: ShieldCheckmark_Filled },
@@ -7792,14 +7840,22 @@ export default [
     { key: "TextDescription_Regular", value: TextDescription_Regular },
     { key: "TextDirectionHorizontalLeft_Filled", value: TextDirectionHorizontalLeft_Filled },
     { key: "TextDirectionHorizontalLeft_Regular", value: TextDirectionHorizontalLeft_Regular },
+    { key: "TextDirectionHorizontalLTR_Filled", value: TextDirectionHorizontalLTR_Filled },
+    { key: "TextDirectionHorizontalLTR_Regular", value: TextDirectionHorizontalLTR_Regular },
     { key: "TextDirectionHorizontalRight_Filled", value: TextDirectionHorizontalRight_Filled },
     { key: "TextDirectionHorizontalRight_Regular", value: TextDirectionHorizontalRight_Regular },
+    { key: "TextDirectionHorizontalRTL_Filled", value: TextDirectionHorizontalRTL_Filled },
+    { key: "TextDirectionHorizontalRTL_Regular", value: TextDirectionHorizontalRTL_Regular },
     { key: "TextDirectionRotate270Right_Filled", value: TextDirectionRotate270Right_Filled },
     { key: "TextDirectionRotate270Right_Regular", value: TextDirectionRotate270Right_Regular },
     { key: "TextDirectionRotate90Left_Filled", value: TextDirectionRotate90Left_Filled },
     { key: "TextDirectionRotate90Left_Regular", value: TextDirectionRotate90Left_Regular },
+    { key: "TextDirectionRotate90LTR_Filled", value: TextDirectionRotate90LTR_Filled },
+    { key: "TextDirectionRotate90LTR_Regular", value: TextDirectionRotate90LTR_Regular },
     { key: "TextDirectionRotate90Right_Filled", value: TextDirectionRotate90Right_Filled },
     { key: "TextDirectionRotate90Right_Regular", value: TextDirectionRotate90Right_Regular },
+    { key: "TextDirectionRotate90RTL_Filled", value: TextDirectionRotate90RTL_Filled },
+    { key: "TextDirectionRotate90RTL_Regular", value: TextDirectionRotate90RTL_Regular },
     { key: "TextDirectionVertical_Filled", value: TextDirectionVertical_Filled },
     { key: "TextDirectionVertical_Regular", value: TextDirectionVertical_Regular },
     { key: "TextEditStyle_Filled", value: TextEditStyle_Filled },
@@ -7942,6 +7998,8 @@ export default [
     { key: "TextWordCount_Regular", value: TextWordCount_Regular },
     { key: "TextWrap_Filled", value: TextWrap_Filled },
     { key: "TextWrap_Regular", value: TextWrap_Regular },
+    { key: "TextWrapOff_Filled", value: TextWrapOff_Filled },
+    { key: "TextWrapOff_Regular", value: TextWrapOff_Regular },
     { key: "Thinking_Filled", value: Thinking_Filled },
     { key: "Thinking_Regular", value: Thinking_Regular },
     { key: "ThumbDislike_Filled", value: ThumbDislike_Filled },
@@ -8002,6 +8060,8 @@ export default [
     { key: "TriangleRight_Regular", value: TriangleRight_Regular },
     { key: "Trophy_Filled", value: Trophy_Filled },
     { key: "Trophy_Regular", value: Trophy_Regular },
+    { key: "TrophyLock_Filled", value: TrophyLock_Filled },
+    { key: "TrophyLock_Regular", value: TrophyLock_Regular },
     { key: "TrophyOff_Filled", value: TrophyOff_Filled },
     { key: "TrophyOff_Regular", value: TrophyOff_Regular },
     { key: "TV_Filled", value: TV_Filled },
