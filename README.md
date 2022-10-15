@@ -14,7 +14,7 @@ npm install -D svelte-fluentui-icons
 
 ![预览](preview.png)
 
-[查看全部图标](https://1217950746.github.io/svelte-fluentui-icons)
+[查看全部图标](https://0x6863.github.io/svelte-fluentui-icons)
 
 ```svelte
 <script>
