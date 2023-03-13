@@ -1,10 +1,10 @@
-<script>
+﻿<script>
     import IconBase from "../components/IconBase.svelte";
 </script>
 
 <IconBase
     title="AlignStartVertical_Filled"
     viewBox="0 0 20 20"
-    data="M 0 0 M 20 20 M2.5 3C2.22386 3 2 3.22386 2 3.5C2 3.77614 2.22386 4 2.5 4H17.5C17.7761 4 18 3.77614 18 3.5C18 3.22386 17.7761 3 17.5 3H2.5Z M6 6C4.89543 6 4 6.89543 4 8V10C4 11.1046 4.89543 12 6 12H14C15.1046 12 16 11.1046 16 10V8C16 6.89543 15.1046 6 14 6H6Z"
+    data="M 0 0 M 20 20 M2.5 3a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1h-15ZM6 6a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H6Z"
     {...$$props}
 />

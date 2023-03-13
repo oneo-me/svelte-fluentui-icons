@@ -1,10 +1,10 @@
-<script>
+﻿<script>
     import IconBase from "../components/IconBase.svelte";
 </script>
 
 <IconBase
     title="PresenceDND_Filled"
     viewBox="0 0 20 20"
-    data="M 0 0 M 20 20 M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM7 9H13C13.5523 9 14 9.44771 14 10C14 10.5523 13.5523 11 13 11H7C6.44772 11 6 10.5523 6 10C6 9.44771 6.44772 9 7 9Z"
+    data="M 0 0 M 20 20 M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10ZM7 9h6a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Z"
     {...$$props}
 />
