@@ -12,9 +12,10 @@ npm install -D svelte-fluentui-icons
 
 使用
 
-![预览](preview.png)
+![预览](https://github.com/oneo-me/svelte-fluentui-icons/blob/main/preview.png?raw=true)
 
-[查看全部图标](https://0x6863.github.io/svelte-fluentui-icons)
+
+[查看全部图标](https://oneo-me.github.io/svelte-fluentui-icons)
 
 ```svelte
 <script>

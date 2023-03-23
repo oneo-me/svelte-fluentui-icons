@@ -1203,6 +1203,8 @@ import CommentError_Filled from './icons/CommentError_Filled.svelte';
 import CommentError_Regular from './icons/CommentError_Regular.svelte';
 import CommentLightning_Filled from './icons/CommentLightning_Filled.svelte';
 import CommentLightning_Regular from './icons/CommentLightning_Regular.svelte';
+import CommentLink_Filled from './icons/CommentLink_Filled.svelte';
+import CommentLink_Regular from './icons/CommentLink_Regular.svelte';
 import CommentMention_Filled from './icons/CommentMention_Filled.svelte';
 import CommentMention_Regular from './icons/CommentMention_Regular.svelte';
 import CommentMultiple_Filled from './icons/CommentMultiple_Filled.svelte';
@@ -2383,6 +2385,8 @@ import LocationAddRight_Filled from './icons/LocationAddRight_Filled.svelte';
 import LocationAddRight_Regular from './icons/LocationAddRight_Regular.svelte';
 import LocationAddUp_Filled from './icons/LocationAddUp_Filled.svelte';
 import LocationAddUp_Regular from './icons/LocationAddUp_Regular.svelte';
+import LocationArrow_Filled from './icons/LocationArrow_Filled.svelte';
+import LocationArrow_Regular from './icons/LocationArrow_Regular.svelte';
 import LocationArrowLeft_Filled from './icons/LocationArrowLeft_Filled.svelte';
 import LocationArrowLeft_Regular from './icons/LocationArrowLeft_Regular.svelte';
 import LocationArrowRight_Filled from './icons/LocationArrowRight_Filled.svelte';
@@ -2710,6 +2714,12 @@ import PanelLeftContract_Regular from './icons/PanelLeftContract_Regular.svelte'
 import PanelLeftExpand_Filled from './icons/PanelLeftExpand_Filled.svelte';
 import PanelLeftExpand_Regular from './icons/PanelLeftExpand_Regular.svelte';
 import PanelLeftFocusRight_Filled from './icons/PanelLeftFocusRight_Filled.svelte';
+import PanelLeftHeader_Filled from './icons/PanelLeftHeader_Filled.svelte';
+import PanelLeftHeader_Regular from './icons/PanelLeftHeader_Regular.svelte';
+import PanelLeftHeaderAdd_Filled from './icons/PanelLeftHeaderAdd_Filled.svelte';
+import PanelLeftHeaderAdd_Regular from './icons/PanelLeftHeaderAdd_Regular.svelte';
+import PanelLeftHeaderKey_Filled from './icons/PanelLeftHeaderKey_Filled.svelte';
+import PanelLeftHeaderKey_Regular from './icons/PanelLeftHeaderKey_Regular.svelte';
 import PanelLeftKey_Filled from './icons/PanelLeftKey_Filled.svelte';
 import PanelLeftKey_Regular from './icons/PanelLeftKey_Regular.svelte';
 import PanelRight_Filled from './icons/PanelRight_Filled.svelte';
@@ -3053,6 +3063,8 @@ import ProjectionScreen_Filled from './icons/ProjectionScreen_Filled.svelte';
 import ProjectionScreen_Regular from './icons/ProjectionScreen_Regular.svelte';
 import ProjectionScreenDismiss_Filled from './icons/ProjectionScreenDismiss_Filled.svelte';
 import ProjectionScreenDismiss_Regular from './icons/ProjectionScreenDismiss_Regular.svelte';
+import ProjectionScreenText_Filled from './icons/ProjectionScreenText_Filled.svelte';
+import ProjectionScreenText_Regular from './icons/ProjectionScreenText_Regular.svelte';
 import ProtocolHandler_Filled from './icons/ProtocolHandler_Filled.svelte';
 import ProtocolHandler_Regular from './icons/ProtocolHandler_Regular.svelte';
 import Pulse_Filled from './icons/Pulse_Filled.svelte';
@@ -4167,6 +4179,8 @@ import TextTTag_Filled from './icons/TextTTag_Filled.svelte';
 import TextTTag_Regular from './icons/TextTTag_Regular.svelte';
 import TextUnderline_Filled from './icons/TextUnderline_Filled.svelte';
 import TextUnderline_Regular from './icons/TextUnderline_Regular.svelte';
+import TextUnderlineCharacterU_Filled from './icons/TextUnderlineCharacterU_Filled.svelte';
+import TextUnderlineCharacterU_Regular from './icons/TextUnderlineCharacterU_Regular.svelte';
 import TextUnderlineDouble_Filled from './icons/TextUnderlineDouble_Filled.svelte';
 import TextUnderlineDouble_Regular from './icons/TextUnderlineDouble_Regular.svelte';
 import TextWholeWord_Filled from './icons/TextWholeWord_Filled.svelte';
@@ -5726,6 +5740,8 @@ export default [
     { key: "CommentError_Regular", value: CommentError_Regular },
     { key: "CommentLightning_Filled", value: CommentLightning_Filled },
     { key: "CommentLightning_Regular", value: CommentLightning_Regular },
+    { key: "CommentLink_Filled", value: CommentLink_Filled },
+    { key: "CommentLink_Regular", value: CommentLink_Regular },
     { key: "CommentMention_Filled", value: CommentMention_Filled },
     { key: "CommentMention_Regular", value: CommentMention_Regular },
     { key: "CommentMultiple_Filled", value: CommentMultiple_Filled },
@@ -6906,6 +6922,8 @@ export default [
     { key: "LocationAddRight_Regular", value: LocationAddRight_Regular },
     { key: "LocationAddUp_Filled", value: LocationAddUp_Filled },
     { key: "LocationAddUp_Regular", value: LocationAddUp_Regular },
+    { key: "LocationArrow_Filled", value: LocationArrow_Filled },
+    { key: "LocationArrow_Regular", value: LocationArrow_Regular },
     { key: "LocationArrowLeft_Filled", value: LocationArrowLeft_Filled },
     { key: "LocationArrowLeft_Regular", value: LocationArrowLeft_Regular },
     { key: "LocationArrowRight_Filled", value: LocationArrowRight_Filled },
@@ -7233,6 +7251,12 @@ export default [
     { key: "PanelLeftExpand_Filled", value: PanelLeftExpand_Filled },
     { key: "PanelLeftExpand_Regular", value: PanelLeftExpand_Regular },
     { key: "PanelLeftFocusRight_Filled", value: PanelLeftFocusRight_Filled },
+    { key: "PanelLeftHeader_Filled", value: PanelLeftHeader_Filled },
+    { key: "PanelLeftHeader_Regular", value: PanelLeftHeader_Regular },
+    { key: "PanelLeftHeaderAdd_Filled", value: PanelLeftHeaderAdd_Filled },
+    { key: "PanelLeftHeaderAdd_Regular", value: PanelLeftHeaderAdd_Regular },
+    { key: "PanelLeftHeaderKey_Filled", value: PanelLeftHeaderKey_Filled },
+    { key: "PanelLeftHeaderKey_Regular", value: PanelLeftHeaderKey_Regular },
     { key: "PanelLeftKey_Filled", value: PanelLeftKey_Filled },
     { key: "PanelLeftKey_Regular", value: PanelLeftKey_Regular },
     { key: "PanelRight_Filled", value: PanelRight_Filled },
@@ -7576,6 +7600,8 @@ export default [
     { key: "ProjectionScreen_Regular", value: ProjectionScreen_Regular },
     { key: "ProjectionScreenDismiss_Filled", value: ProjectionScreenDismiss_Filled },
     { key: "ProjectionScreenDismiss_Regular", value: ProjectionScreenDismiss_Regular },
+    { key: "ProjectionScreenText_Filled", value: ProjectionScreenText_Filled },
+    { key: "ProjectionScreenText_Regular", value: ProjectionScreenText_Regular },
     { key: "ProtocolHandler_Filled", value: ProtocolHandler_Filled },
     { key: "ProtocolHandler_Regular", value: ProtocolHandler_Regular },
     { key: "Pulse_Filled", value: Pulse_Filled },
@@ -8690,6 +8716,8 @@ export default [
     { key: "TextTTag_Regular", value: TextTTag_Regular },
     { key: "TextUnderline_Filled", value: TextUnderline_Filled },
     { key: "TextUnderline_Regular", value: TextUnderline_Regular },
+    { key: "TextUnderlineCharacterU_Filled", value: TextUnderlineCharacterU_Filled },
+    { key: "TextUnderlineCharacterU_Regular", value: TextUnderlineCharacterU_Regular },
     { key: "TextUnderlineDouble_Filled", value: TextUnderlineDouble_Filled },
     { key: "TextUnderlineDouble_Regular", value: TextUnderlineDouble_Regular },
     { key: "TextWholeWord_Filled", value: TextWholeWord_Filled },

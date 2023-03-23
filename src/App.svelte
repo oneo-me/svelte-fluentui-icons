@@ -89,7 +89,7 @@
         </div>
         <div class="basis-1/3 grid justify-items-stretch items-stretch">
             <a
-                href="https://github.com/1217950746/svelte-fluentui-icons"
+                href="https://github.com/oneo-me/svelte-fluentui-icons"
                 target="_break"
                 class="justify-self-end self-center
                     text-slate-600 dark:text-white
@@ -120,7 +120,7 @@
             由
             <a
                 class="no-underline hover:underline text-cyan-600 dark:text-cyan-400"
-                href="https://github.com/1217950746"
+                href="https://github.com/oneo-me"
                 target="_break">ONEO</a
             >
             使用
