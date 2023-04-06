@@ -3165,9 +3165,7 @@ import Remote_Filled from './icons/Remote_Filled.svelte';
 import Remote_Regular from './icons/Remote_Regular.svelte';
 import Rename_Filled from './icons/Rename_Filled.svelte';
 import Rename_Regular from './icons/Rename_Regular.svelte';
-import Reorder_Filled from './icons/Reorder_Filled.svelte';
 import ReOrder_Filled from './icons/ReOrder_Filled.svelte';
-import Reorder_Regular from './icons/Reorder_Regular.svelte';
 import ReOrder_Regular from './icons/ReOrder_Regular.svelte';
 import ReOrderDotsHorizontal_Filled from './icons/ReOrderDotsHorizontal_Filled.svelte';
 import ReOrderDotsHorizontal_Regular from './icons/ReOrderDotsHorizontal_Regular.svelte';
@@ -7742,9 +7740,7 @@ export default [
     { key: "Remote_Regular", value: Remote_Regular },
     { key: "Rename_Filled", value: Rename_Filled },
     { key: "Rename_Regular", value: Rename_Regular },
-    { key: "Reorder_Filled", value: Reorder_Filled },
     { key: "ReOrder_Filled", value: ReOrder_Filled },
-    { key: "Reorder_Regular", value: Reorder_Regular },
     { key: "ReOrder_Regular", value: ReOrder_Regular },
     { key: "ReOrderDotsHorizontal_Filled", value: ReOrderDotsHorizontal_Filled },
     { key: "ReOrderDotsHorizontal_Regular", value: ReOrderDotsHorizontal_Regular },
