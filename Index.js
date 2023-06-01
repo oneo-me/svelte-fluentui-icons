@@ -16,6 +16,8 @@ import AddSubtractCircle_Filled from './icons/AddSubtractCircle_Filled.svelte';
 import AddSubtractCircle_Regular from './icons/AddSubtractCircle_Regular.svelte';
 import Airplane_Filled from './icons/Airplane_Filled.svelte';
 import Airplane_Regular from './icons/Airplane_Regular.svelte';
+import AirplaneLanding_Filled from './icons/AirplaneLanding_Filled.svelte';
+import AirplaneLanding_Regular from './icons/AirplaneLanding_Regular.svelte';
 import AirplaneTakeOff_Filled from './icons/AirplaneTakeOff_Filled.svelte';
 import AirplaneTakeOff_Regular from './icons/AirplaneTakeOff_Regular.svelte';
 import Album_Filled from './icons/Album_Filled.svelte';
@@ -74,6 +76,8 @@ import AlignStartHorizontal_Filled from './icons/AlignStartHorizontal_Filled.sve
 import AlignStartHorizontal_Regular from './icons/AlignStartHorizontal_Regular.svelte';
 import AlignStartVertical_Filled from './icons/AlignStartVertical_Filled.svelte';
 import AlignStartVertical_Regular from './icons/AlignStartVertical_Regular.svelte';
+import AlignStraighten_Filled from './icons/AlignStraighten_Filled.svelte';
+import AlignStraighten_Regular from './icons/AlignStraighten_Regular.svelte';
 import AlignStretchHorizontal_Filled from './icons/AlignStretchHorizontal_Filled.svelte';
 import AlignStretchHorizontal_Regular from './icons/AlignStretchHorizontal_Regular.svelte';
 import AlignStretchVertical_Filled from './icons/AlignStretchVertical_Filled.svelte';
@@ -126,6 +130,8 @@ import ArrowAutofitHeight_Filled from './icons/ArrowAutofitHeight_Filled.svelte'
 import ArrowAutofitHeight_Regular from './icons/ArrowAutofitHeight_Regular.svelte';
 import ArrowAutofitHeightDotted_Filled from './icons/ArrowAutofitHeightDotted_Filled.svelte';
 import ArrowAutofitHeightDotted_Regular from './icons/ArrowAutofitHeightDotted_Regular.svelte';
+import ArrowAutofitHeightIn_Filled from './icons/ArrowAutofitHeightIn_Filled.svelte';
+import ArrowAutofitHeightIn_Regular from './icons/ArrowAutofitHeightIn_Regular.svelte';
 import ArrowAutofitUp_Filled from './icons/ArrowAutofitUp_Filled.svelte';
 import ArrowAutofitUp_Regular from './icons/ArrowAutofitUp_Regular.svelte';
 import ArrowAutofitWidth_Filled from './icons/ArrowAutofitWidth_Filled.svelte';
@@ -206,6 +212,12 @@ import ArrowFit_Filled from './icons/ArrowFit_Filled.svelte';
 import ArrowFit_Regular from './icons/ArrowFit_Regular.svelte';
 import ArrowFitIn_Filled from './icons/ArrowFitIn_Filled.svelte';
 import ArrowFitIn_Regular from './icons/ArrowFitIn_Regular.svelte';
+import ArrowFlowDiagonalUpRight_Filled from './icons/ArrowFlowDiagonalUpRight_Filled.svelte';
+import ArrowFlowDiagonalUpRight_Regular from './icons/ArrowFlowDiagonalUpRight_Regular.svelte';
+import ArrowFlowUpRight_Filled from './icons/ArrowFlowUpRight_Filled.svelte';
+import ArrowFlowUpRight_Regular from './icons/ArrowFlowUpRight_Regular.svelte';
+import ArrowFlowUpRightRectangleMultiple_Filled from './icons/ArrowFlowUpRightRectangleMultiple_Filled.svelte';
+import ArrowFlowUpRightRectangleMultiple_Regular from './icons/ArrowFlowUpRightRectangleMultiple_Regular.svelte';
 import ArrowForward_Filled from './icons/ArrowForward_Filled.svelte';
 import ArrowForward_Regular from './icons/ArrowForward_Regular.svelte';
 import ArrowForwardDownLightning_Filled from './icons/ArrowForwardDownLightning_Filled.svelte';
@@ -272,10 +284,6 @@ import ArrowRotateClockwise_Filled from './icons/ArrowRotateClockwise_Filled.sve
 import ArrowRotateClockwise_Regular from './icons/ArrowRotateClockwise_Regular.svelte';
 import ArrowRotateCounterclockwise_Filled from './icons/ArrowRotateCounterclockwise_Filled.svelte';
 import ArrowRotateCounterclockwise_Regular from './icons/ArrowRotateCounterclockwise_Regular.svelte';
-import ArrowRouting_Filled from './icons/ArrowRouting_Filled.svelte';
-import ArrowRouting_Regular from './icons/ArrowRouting_Regular.svelte';
-import ArrowRoutingRectangleMultiple_Filled from './icons/ArrowRoutingRectangleMultiple_Filled.svelte';
-import ArrowRoutingRectangleMultiple_Regular from './icons/ArrowRoutingRectangleMultiple_Regular.svelte';
 import ArrowsBidirectional_Filled from './icons/ArrowsBidirectional_Filled.svelte';
 import ArrowsBidirectional_Regular from './icons/ArrowsBidirectional_Regular.svelte';
 import ArrowShuffle_Filled from './icons/ArrowShuffle_Filled.svelte';
@@ -292,8 +300,12 @@ import ArrowSortUp_Filled from './icons/ArrowSortUp_Filled.svelte';
 import ArrowSortUp_Regular from './icons/ArrowSortUp_Regular.svelte';
 import ArrowSplit_Filled from './icons/ArrowSplit_Filled.svelte';
 import ArrowSplit_Regular from './icons/ArrowSplit_Regular.svelte';
+import ArrowSprint_Filled from './icons/ArrowSprint_Filled.svelte';
+import ArrowSprint_Regular from './icons/ArrowSprint_Regular.svelte';
 import ArrowSquareDown_Filled from './icons/ArrowSquareDown_Filled.svelte';
 import ArrowSquareDown_Regular from './icons/ArrowSquareDown_Regular.svelte';
+import ArrowSquareUpRight_Filled from './icons/ArrowSquareUpRight_Filled.svelte';
+import ArrowSquareUpRight_Regular from './icons/ArrowSquareUpRight_Regular.svelte';
 import ArrowStepBack_Filled from './icons/ArrowStepBack_Filled.svelte';
 import ArrowStepBack_Regular from './icons/ArrowStepBack_Regular.svelte';
 import ArrowStepIn_Filled from './icons/ArrowStepIn_Filled.svelte';
@@ -442,6 +454,8 @@ import BeakerEdit_Filled from './icons/BeakerEdit_Filled.svelte';
 import BeakerEdit_Regular from './icons/BeakerEdit_Regular.svelte';
 import BeakerOff_Filled from './icons/BeakerOff_Filled.svelte';
 import BeakerOff_Regular from './icons/BeakerOff_Regular.svelte';
+import BeakerSettings_Filled from './icons/BeakerSettings_Filled.svelte';
+import BeakerSettings_Regular from './icons/BeakerSettings_Regular.svelte';
 import Bed_Filled from './icons/Bed_Filled.svelte';
 import Bed_Regular from './icons/Bed_Regular.svelte';
 import BezierCurveSquare_Filled from './icons/BezierCurveSquare_Filled.svelte';
@@ -450,6 +464,10 @@ import BinderTriangle_Filled from './icons/BinderTriangle_Filled.svelte';
 import BinderTriangle_Regular from './icons/BinderTriangle_Regular.svelte';
 import BinFull_Filled from './icons/BinFull_Filled.svelte';
 import BinFull_Regular from './icons/BinFull_Regular.svelte';
+import BinRecycle_Filled from './icons/BinRecycle_Filled.svelte';
+import BinRecycle_Regular from './icons/BinRecycle_Regular.svelte';
+import BinRecycleFull_Filled from './icons/BinRecycleFull_Filled.svelte';
+import BinRecycleFull_Regular from './icons/BinRecycleFull_Regular.svelte';
 import Bluetooth_Filled from './icons/Bluetooth_Filled.svelte';
 import Bluetooth_Regular from './icons/Bluetooth_Regular.svelte';
 import BluetoothConnected_Filled from './icons/BluetoothConnected_Filled.svelte';
@@ -484,6 +502,9 @@ import BookContacts_Filled from './icons/BookContacts_Filled.svelte';
 import BookContacts_Regular from './icons/BookContacts_Regular.svelte';
 import BookDatabase_Filled from './icons/BookDatabase_Filled.svelte';
 import BookDatabase_Regular from './icons/BookDatabase_Regular.svelte';
+import BookDefault_Filled from './icons/BookDefault_Filled.svelte';
+import BookDismiss_Filled from './icons/BookDismiss_Filled.svelte';
+import BookDismiss_Regular from './icons/BookDismiss_Regular.svelte';
 import BookExclamationMark_Filled from './icons/BookExclamationMark_Filled.svelte';
 import BookExclamationMark_Regular from './icons/BookExclamationMark_Regular.svelte';
 import BookGlobe_Filled from './icons/BookGlobe_Filled.svelte';
@@ -622,6 +643,8 @@ import BriefcaseMedical_Filled from './icons/BriefcaseMedical_Filled.svelte';
 import BriefcaseMedical_Regular from './icons/BriefcaseMedical_Regular.svelte';
 import BriefcaseOff_Filled from './icons/BriefcaseOff_Filled.svelte';
 import BriefcaseOff_Regular from './icons/BriefcaseOff_Regular.svelte';
+import BriefcaseSearch_Filled from './icons/BriefcaseSearch_Filled.svelte';
+import BriefcaseSearch_Regular from './icons/BriefcaseSearch_Regular.svelte';
 import BrightnessHigh_Filled from './icons/BrightnessHigh_Filled.svelte';
 import BrightnessHigh_Regular from './icons/BrightnessHigh_Regular.svelte';
 import BrightnessLow_Filled from './icons/BrightnessLow_Filled.svelte';
@@ -676,6 +699,8 @@ import BuildingSkyscraper_Filled from './icons/BuildingSkyscraper_Filled.svelte'
 import BuildingSkyscraper_Regular from './icons/BuildingSkyscraper_Regular.svelte';
 import BuildingTownhouse_Filled from './icons/BuildingTownhouse_Filled.svelte';
 import BuildingTownhouse_Regular from './icons/BuildingTownhouse_Regular.svelte';
+import Button_Filled from './icons/Button_Filled.svelte';
+import Button_Regular from './icons/Button_Regular.svelte';
 import Calculator_Filled from './icons/Calculator_Filled.svelte';
 import Calculator_Regular from './icons/Calculator_Regular.svelte';
 import CalculatorArrowClockwise_Filled from './icons/CalculatorArrowClockwise_Filled.svelte';
@@ -816,6 +841,8 @@ import CameraSparkles_Filled from './icons/CameraSparkles_Filled.svelte';
 import CameraSparkles_Regular from './icons/CameraSparkles_Regular.svelte';
 import CameraSwitch_Filled from './icons/CameraSwitch_Filled.svelte';
 import CameraSwitch_Regular from './icons/CameraSwitch_Regular.svelte';
+import CardUI_Filled from './icons/CardUI_Filled.svelte';
+import CardUI_Regular from './icons/CardUI_Regular.svelte';
 import CaretDown_Filled from './icons/CaretDown_Filled.svelte';
 import CaretDown_Regular from './icons/CaretDown_Regular.svelte';
 import CaretDownRight_Filled from './icons/CaretDownRight_Filled.svelte';
@@ -966,6 +993,8 @@ import ChevronDoubleUp_Filled from './icons/ChevronDoubleUp_Filled.svelte';
 import ChevronDoubleUp_Regular from './icons/ChevronDoubleUp_Regular.svelte';
 import ChevronDown_Filled from './icons/ChevronDown_Filled.svelte';
 import ChevronDown_Regular from './icons/ChevronDown_Regular.svelte';
+import ChevronDownUp_Filled from './icons/ChevronDownUp_Filled.svelte';
+import ChevronDownUp_Regular from './icons/ChevronDownUp_Regular.svelte';
 import ChevronLeft_Filled from './icons/ChevronLeft_Filled.svelte';
 import ChevronLeft_Regular from './icons/ChevronLeft_Regular.svelte';
 import ChevronRight_Filled from './icons/ChevronRight_Filled.svelte';
@@ -982,6 +1011,8 @@ import CircleEraser_Filled from './icons/CircleEraser_Filled.svelte';
 import CircleEraser_Regular from './icons/CircleEraser_Regular.svelte';
 import CircleHalfFill_Filled from './icons/CircleHalfFill_Filled.svelte';
 import CircleHalfFill_Regular from './icons/CircleHalfFill_Regular.svelte';
+import CircleHint_Filled from './icons/CircleHint_Filled.svelte';
+import CircleHint_Regular from './icons/CircleHint_Regular.svelte';
 import CircleImage_Filled from './icons/CircleImage_Filled.svelte';
 import CircleImage_Regular from './icons/CircleImage_Regular.svelte';
 import CircleLine_Filled from './icons/CircleLine_Filled.svelte';
@@ -1094,6 +1125,10 @@ import CloudArrowUp_Filled from './icons/CloudArrowUp_Filled.svelte';
 import CloudArrowUp_Regular from './icons/CloudArrowUp_Regular.svelte';
 import CloudCheckmark_Filled from './icons/CloudCheckmark_Filled.svelte';
 import CloudCheckmark_Regular from './icons/CloudCheckmark_Regular.svelte';
+import CloudDatabase_Filled from './icons/CloudDatabase_Filled.svelte';
+import CloudDatabase_Regular from './icons/CloudDatabase_Regular.svelte';
+import CloudDesktop_Filled from './icons/CloudDesktop_Filled.svelte';
+import CloudDesktop_Regular from './icons/CloudDesktop_Regular.svelte';
 import CloudDismiss_Filled from './icons/CloudDismiss_Filled.svelte';
 import CloudDismiss_Regular from './icons/CloudDismiss_Regular.svelte';
 import CloudEdit_Filled from './icons/CloudEdit_Filled.svelte';
@@ -1177,6 +1212,10 @@ import ColumnDoubleCompare_Filled from './icons/ColumnDoubleCompare_Filled.svelt
 import ColumnDoubleCompare_Regular from './icons/ColumnDoubleCompare_Regular.svelte';
 import ColumnEdit_Filled from './icons/ColumnEdit_Filled.svelte';
 import ColumnEdit_Regular from './icons/ColumnEdit_Regular.svelte';
+import ColumnSingle_Filled from './icons/ColumnSingle_Filled.svelte';
+import ColumnSingle_Regular from './icons/ColumnSingle_Regular.svelte';
+import ColumnSingleCompare_Filled from './icons/ColumnSingleCompare_Filled.svelte';
+import ColumnSingleCompare_Regular from './icons/ColumnSingleCompare_Regular.svelte';
 import ColumnTriple_Filled from './icons/ColumnTriple_Filled.svelte';
 import ColumnTriple_Regular from './icons/ColumnTriple_Regular.svelte';
 import ColumnTripleEdit_Filled from './icons/ColumnTripleEdit_Filled.svelte';
@@ -1287,6 +1326,8 @@ import CropInterim_Filled from './icons/CropInterim_Filled.svelte';
 import CropInterim_Regular from './icons/CropInterim_Regular.svelte';
 import CropInterimOff_Filled from './icons/CropInterimOff_Filled.svelte';
 import CropInterimOff_Regular from './icons/CropInterimOff_Regular.svelte';
+import CropSparkle_Filled from './icons/CropSparkle_Filled.svelte';
+import CropSparkle_Regular from './icons/CropSparkle_Regular.svelte';
 import Crown_Filled from './icons/Crown_Filled.svelte';
 import Crown_Regular from './icons/Crown_Regular.svelte';
 import Cube_Filled from './icons/Cube_Filled.svelte';
@@ -1319,6 +1360,8 @@ import CursorHover_Filled from './icons/CursorHover_Filled.svelte';
 import CursorHover_Regular from './icons/CursorHover_Regular.svelte';
 import CursorHoverOff_Filled from './icons/CursorHoverOff_Filled.svelte';
 import CursorHoverOff_Regular from './icons/CursorHoverOff_Regular.svelte';
+import CursorProhibited_Filled from './icons/CursorProhibited_Filled.svelte';
+import CursorProhibited_Regular from './icons/CursorProhibited_Regular.svelte';
 import Cut_Filled from './icons/Cut_Filled.svelte';
 import Cut_Regular from './icons/Cut_Regular.svelte';
 import DarkTheme_Filled from './icons/DarkTheme_Filled.svelte';
@@ -1411,8 +1454,12 @@ import Dentist_Filled from './icons/Dentist_Filled.svelte';
 import Dentist_Regular from './icons/Dentist_Regular.svelte';
 import DesignIdeas_Filled from './icons/DesignIdeas_Filled.svelte';
 import DesignIdeas_Regular from './icons/DesignIdeas_Regular.svelte';
+import Desk_Filled from './icons/Desk_Filled.svelte';
+import Desk_Regular from './icons/Desk_Regular.svelte';
 import Desktop_Filled from './icons/Desktop_Filled.svelte';
 import Desktop_Regular from './icons/Desktop_Regular.svelte';
+import DesktopArrowDown_Filled from './icons/DesktopArrowDown_Filled.svelte';
+import DesktopArrowDown_Regular from './icons/DesktopArrowDown_Regular.svelte';
 import DesktopArrowRight_Filled from './icons/DesktopArrowRight_Filled.svelte';
 import DesktopArrowRight_Regular from './icons/DesktopArrowRight_Regular.svelte';
 import DesktopCheckmark_Filled from './icons/DesktopCheckmark_Filled.svelte';
@@ -1439,6 +1486,8 @@ import DesktopSync_Filled from './icons/DesktopSync_Filled.svelte';
 import DesktopSync_Regular from './icons/DesktopSync_Regular.svelte';
 import DesktopToolbox_Filled from './icons/DesktopToolbox_Filled.svelte';
 import DesktopToolbox_Regular from './icons/DesktopToolbox_Regular.svelte';
+import DesktopTower_Filled from './icons/DesktopTower_Filled.svelte';
+import DesktopTower_Regular from './icons/DesktopTower_Regular.svelte';
 import DeveloperBoard_Filled from './icons/DeveloperBoard_Filled.svelte';
 import DeveloperBoard_Regular from './icons/DeveloperBoard_Regular.svelte';
 import DeveloperBoardLightning_Filled from './icons/DeveloperBoardLightning_Filled.svelte';
@@ -1569,10 +1618,16 @@ import DocumentHeart_Filled from './icons/DocumentHeart_Filled.svelte';
 import DocumentHeart_Regular from './icons/DocumentHeart_Regular.svelte';
 import DocumentHeartPulse_Filled from './icons/DocumentHeartPulse_Filled.svelte';
 import DocumentHeartPulse_Regular from './icons/DocumentHeartPulse_Regular.svelte';
+import DocumentImage_Filled from './icons/DocumentImage_Filled.svelte';
+import DocumentImage_Regular from './icons/DocumentImage_Regular.svelte';
+import DocumentJAVA_Filled from './icons/DocumentJAVA_Filled.svelte';
+import DocumentJAVA_Regular from './icons/DocumentJAVA_Regular.svelte';
 import DocumentJavascript_Filled from './icons/DocumentJavascript_Filled.svelte';
 import DocumentJavascript_Regular from './icons/DocumentJavascript_Regular.svelte';
 import DocumentJS_Filled from './icons/DocumentJS_Filled.svelte';
 import DocumentJS_Regular from './icons/DocumentJS_Regular.svelte';
+import DocumentKey_Filled from './icons/DocumentKey_Filled.svelte';
+import DocumentKey_Regular from './icons/DocumentKey_Regular.svelte';
 import DocumentLandscape_Filled from './icons/DocumentLandscape_Filled.svelte';
 import DocumentLandscape_Regular from './icons/DocumentLandscape_Regular.svelte';
 import DocumentLandscapeData_Filled from './icons/DocumentLandscapeData_Filled.svelte';
@@ -1603,10 +1658,14 @@ import DocumentOnePage_Filled from './icons/DocumentOnePage_Filled.svelte';
 import DocumentOnePage_Regular from './icons/DocumentOnePage_Regular.svelte';
 import DocumentOnePageAdd_Filled from './icons/DocumentOnePageAdd_Filled.svelte';
 import DocumentOnePageAdd_Regular from './icons/DocumentOnePageAdd_Regular.svelte';
+import DocumentOnePageBeaker_Filled from './icons/DocumentOnePageBeaker_Filled.svelte';
+import DocumentOnePageBeaker_Regular from './icons/DocumentOnePageBeaker_Regular.svelte';
 import DocumentOnePageColumns_Filled from './icons/DocumentOnePageColumns_Filled.svelte';
 import DocumentOnePageColumns_Regular from './icons/DocumentOnePageColumns_Regular.svelte';
 import DocumentOnePageLink_Filled from './icons/DocumentOnePageLink_Filled.svelte';
 import DocumentOnePageLink_Regular from './icons/DocumentOnePageLink_Regular.svelte';
+import DocumentOnePageMultiple_Filled from './icons/DocumentOnePageMultiple_Filled.svelte';
+import DocumentOnePageMultiple_Regular from './icons/DocumentOnePageMultiple_Regular.svelte';
 import DocumentOnePageSparkle_Filled from './icons/DocumentOnePageSparkle_Filled.svelte';
 import DocumentOnePageSparkle_Regular from './icons/DocumentOnePageSparkle_Regular.svelte';
 import DocumentPageBottomCenter_Filled from './icons/DocumentPageBottomCenter_Filled.svelte';
@@ -1651,6 +1710,8 @@ import DocumentRB_Filled from './icons/DocumentRB_Filled.svelte';
 import DocumentRB_Regular from './icons/DocumentRB_Regular.svelte';
 import DocumentRibbon_Filled from './icons/DocumentRibbon_Filled.svelte';
 import DocumentRibbon_Regular from './icons/DocumentRibbon_Regular.svelte';
+import DocumentSASS_Filled from './icons/DocumentSASS_Filled.svelte';
+import DocumentSASS_Regular from './icons/DocumentSASS_Regular.svelte';
 import DocumentSave_Filled from './icons/DocumentSave_Filled.svelte';
 import DocumentSave_Regular from './icons/DocumentSave_Regular.svelte';
 import DocumentSearch_Filled from './icons/DocumentSearch_Filled.svelte';
@@ -1695,6 +1756,8 @@ import DocumentVB_Filled from './icons/DocumentVB_Filled.svelte';
 import DocumentVB_Regular from './icons/DocumentVB_Regular.svelte';
 import DocumentWidth_Filled from './icons/DocumentWidth_Filled.svelte';
 import DocumentWidth_Regular from './icons/DocumentWidth_Regular.svelte';
+import DocumentYML_Filled from './icons/DocumentYML_Filled.svelte';
+import DocumentYML_Regular from './icons/DocumentYML_Regular.svelte';
 import Door_Filled from './icons/Door_Filled.svelte';
 import Door_Regular from './icons/Door_Regular.svelte';
 import DoorArrowLeft_Filled from './icons/DoorArrowLeft_Filled.svelte';
@@ -1793,6 +1856,8 @@ import DualScreenVibrate_Filled from './icons/DualScreenVibrate_Filled.svelte';
 import DualScreenVibrate_Regular from './icons/DualScreenVibrate_Regular.svelte';
 import Dumbbell_Filled from './icons/Dumbbell_Filled.svelte';
 import Dumbbell_Regular from './icons/Dumbbell_Regular.svelte';
+import Dust_Filled from './icons/Dust_Filled.svelte';
+import Dust_Regular from './icons/Dust_Regular.svelte';
 import Earth_Filled from './icons/Earth_Filled.svelte';
 import Earth_Regular from './icons/Earth_Regular.svelte';
 import EarthLeaf_Filled from './icons/EarthLeaf_Filled.svelte';
@@ -1819,6 +1884,8 @@ import EmojiEdit_Filled from './icons/EmojiEdit_Filled.svelte';
 import EmojiEdit_Regular from './icons/EmojiEdit_Regular.svelte';
 import EmojiHand_Filled from './icons/EmojiHand_Filled.svelte';
 import EmojiHand_Regular from './icons/EmojiHand_Regular.svelte';
+import EmojiHint_Filled from './icons/EmojiHint_Filled.svelte';
+import EmojiHint_Regular from './icons/EmojiHint_Regular.svelte';
 import EmojiLaugh_Filled from './icons/EmojiLaugh_Filled.svelte';
 import EmojiLaugh_Regular from './icons/EmojiLaugh_Regular.svelte';
 import EmojiMeh_Filled from './icons/EmojiMeh_Filled.svelte';
@@ -1885,8 +1952,12 @@ import Feed_Filled from './icons/Feed_Filled.svelte';
 import Feed_Regular from './icons/Feed_Regular.svelte';
 import Filmstrip_Filled from './icons/Filmstrip_Filled.svelte';
 import Filmstrip_Regular from './icons/Filmstrip_Regular.svelte';
+import FilmstripOff_Filled from './icons/FilmstripOff_Filled.svelte';
+import FilmstripOff_Regular from './icons/FilmstripOff_Regular.svelte';
 import FilmstripPlay_Filled from './icons/FilmstripPlay_Filled.svelte';
 import FilmstripPlay_Regular from './icons/FilmstripPlay_Regular.svelte';
+import FilmstripSplit_Filled from './icons/FilmstripSplit_Filled.svelte';
+import FilmstripSplit_Regular from './icons/FilmstripSplit_Regular.svelte';
 import Filter_Filled from './icons/Filter_Filled.svelte';
 import Filter_Regular from './icons/Filter_Regular.svelte';
 import FilterAdd_Filled from './icons/FilterAdd_Filled.svelte';
@@ -1962,6 +2033,8 @@ import FolderGlobe_Filled from './icons/FolderGlobe_Filled.svelte';
 import FolderGlobe_Regular from './icons/FolderGlobe_Regular.svelte';
 import FolderLink_Filled from './icons/FolderLink_Filled.svelte';
 import FolderLink_Regular from './icons/FolderLink_Regular.svelte';
+import FolderList_Filled from './icons/FolderList_Filled.svelte';
+import FolderList_Regular from './icons/FolderList_Regular.svelte';
 import FolderMail_Filled from './icons/FolderMail_Filled.svelte';
 import FolderMail_Regular from './icons/FolderMail_Regular.svelte';
 import FolderMultiple_Filled from './icons/FolderMultiple_Filled.svelte';
@@ -2050,6 +2123,8 @@ import GaugeAdd_Filled from './icons/GaugeAdd_Filled.svelte';
 import GaugeAdd_Regular from './icons/GaugeAdd_Regular.svelte';
 import Gavel_Filled from './icons/Gavel_Filled.svelte';
 import Gavel_Regular from './icons/Gavel_Regular.svelte';
+import GavelProhibited_Filled from './icons/GavelProhibited_Filled.svelte';
+import GavelProhibited_Regular from './icons/GavelProhibited_Regular.svelte';
 import Gesture_Filled from './icons/Gesture_Filled.svelte';
 import Gesture_Regular from './icons/Gesture_Regular.svelte';
 import GIF_Filled from './icons/GIF_Filled.svelte';
@@ -2066,6 +2141,8 @@ import GiftCardMoney_Filled from './icons/GiftCardMoney_Filled.svelte';
 import GiftCardMoney_Regular from './icons/GiftCardMoney_Regular.svelte';
 import GiftCardMultiple_Filled from './icons/GiftCardMultiple_Filled.svelte';
 import GiftCardMultiple_Regular from './icons/GiftCardMultiple_Regular.svelte';
+import GiftOpen_Filled from './icons/GiftOpen_Filled.svelte';
+import GiftOpen_Regular from './icons/GiftOpen_Regular.svelte';
 import Github_Filled from './icons/Github_Filled.svelte';
 import Glance_Filled from './icons/Glance_Filled.svelte';
 import Glance_Regular from './icons/Glance_Regular.svelte';
@@ -2173,6 +2250,12 @@ import HeartCircleHint_Filled from './icons/HeartCircleHint_Filled.svelte';
 import HeartCircleHint_Regular from './icons/HeartCircleHint_Regular.svelte';
 import HeartPulse_Filled from './icons/HeartPulse_Filled.svelte';
 import HeartPulse_Regular from './icons/HeartPulse_Regular.svelte';
+import HeartPulseCheckmark_Filled from './icons/HeartPulseCheckmark_Filled.svelte';
+import HeartPulseCheckmark_Regular from './icons/HeartPulseCheckmark_Regular.svelte';
+import HeartPulseError_Filled from './icons/HeartPulseError_Filled.svelte';
+import HeartPulseError_Regular from './icons/HeartPulseError_Regular.svelte';
+import HeartPulseWarning_Filled from './icons/HeartPulseWarning_Filled.svelte';
+import HeartPulseWarning_Regular from './icons/HeartPulseWarning_Regular.svelte';
 import Highlight_Filled from './icons/Highlight_Filled.svelte';
 import Highlight_Regular from './icons/Highlight_Regular.svelte';
 import HighlightAccent_Filled from './icons/HighlightAccent_Filled.svelte';
@@ -2190,6 +2273,8 @@ import HomeCheckmark_Filled from './icons/HomeCheckmark_Filled.svelte';
 import HomeCheckmark_Regular from './icons/HomeCheckmark_Regular.svelte';
 import HomeDatabase_Filled from './icons/HomeDatabase_Filled.svelte';
 import HomeDatabase_Regular from './icons/HomeDatabase_Regular.svelte';
+import HomeHeart_Filled from './icons/HomeHeart_Filled.svelte';
+import HomeHeart_Regular from './icons/HomeHeart_Regular.svelte';
 import HomeMore_Filled from './icons/HomeMore_Filled.svelte';
 import HomeMore_Regular from './icons/HomeMore_Regular.svelte';
 import HomePerson_Filled from './icons/HomePerson_Filled.svelte';
@@ -2242,6 +2327,8 @@ import ImageSearch_Filled from './icons/ImageSearch_Filled.svelte';
 import ImageSearch_Regular from './icons/ImageSearch_Regular.svelte';
 import ImageShadow_Filled from './icons/ImageShadow_Filled.svelte';
 import ImageShadow_Regular from './icons/ImageShadow_Regular.svelte';
+import ImageStack_Filled from './icons/ImageStack_Filled.svelte';
+import ImageStack_Regular from './icons/ImageStack_Regular.svelte';
 import ImageTable_Filled from './icons/ImageTable_Filled.svelte';
 import ImageTable_Regular from './icons/ImageTable_Regular.svelte';
 import ImmersiveReader_Filled from './icons/ImmersiveReader_Filled.svelte';
@@ -2315,6 +2402,8 @@ import Laptop_Filled from './icons/Laptop_Filled.svelte';
 import Laptop_Regular from './icons/Laptop_Regular.svelte';
 import LaptopDismiss_Filled from './icons/LaptopDismiss_Filled.svelte';
 import LaptopDismiss_Regular from './icons/LaptopDismiss_Regular.svelte';
+import LaptopShield_Filled from './icons/LaptopShield_Filled.svelte';
+import LaptopShield_Regular from './icons/LaptopShield_Regular.svelte';
 import LaserTool_Filled from './icons/LaserTool_Filled.svelte';
 import LaserTool_Regular from './icons/LaserTool_Regular.svelte';
 import Lasso_Filled from './icons/Lasso_Filled.svelte';
@@ -2339,6 +2428,8 @@ import Library_Filled from './icons/Library_Filled.svelte';
 import Library_Regular from './icons/Library_Regular.svelte';
 import Lightbulb_Filled from './icons/Lightbulb_Filled.svelte';
 import Lightbulb_Regular from './icons/Lightbulb_Regular.svelte';
+import LightbulbCheckmark_Filled from './icons/LightbulbCheckmark_Filled.svelte';
+import LightbulbCheckmark_Regular from './icons/LightbulbCheckmark_Regular.svelte';
 import LightbulbCircle_Filled from './icons/LightbulbCircle_Filled.svelte';
 import LightbulbCircle_Regular from './icons/LightbulbCircle_Regular.svelte';
 import LightbulbFilament_Filled from './icons/LightbulbFilament_Filled.svelte';
@@ -2379,6 +2470,14 @@ import LinkToolbox_Filled from './icons/LinkToolbox_Filled.svelte';
 import LinkToolbox_Regular from './icons/LinkToolbox_Regular.svelte';
 import List_Filled from './icons/List_Filled.svelte';
 import List_Regular from './icons/List_Regular.svelte';
+import ListBar_Filled from './icons/ListBar_Filled.svelte';
+import ListBar_Regular from './icons/ListBar_Regular.svelte';
+import ListBarTree_Filled from './icons/ListBarTree_Filled.svelte';
+import ListBarTree_Regular from './icons/ListBarTree_Regular.svelte';
+import ListBarTreeOffset_Filled from './icons/ListBarTreeOffset_Filled.svelte';
+import ListBarTreeOffset_Regular from './icons/ListBarTreeOffset_Regular.svelte';
+import ListRTL_Filled from './icons/ListRTL_Filled.svelte';
+import ListRTL_Regular from './icons/ListRTL_Regular.svelte';
 import Live_Filled from './icons/Live_Filled.svelte';
 import Live_Regular from './icons/Live_Regular.svelte';
 import LiveOff_Filled from './icons/LiveOff_Filled.svelte';
@@ -2559,6 +2658,8 @@ import Midi_Filled from './icons/Midi_Filled.svelte';
 import Midi_Regular from './icons/Midi_Regular.svelte';
 import MobileOptimized_Filled from './icons/MobileOptimized_Filled.svelte';
 import MobileOptimized_Regular from './icons/MobileOptimized_Regular.svelte';
+import Mold_Filled from './icons/Mold_Filled.svelte';
+import Mold_Regular from './icons/Mold_Regular.svelte';
 import Molecule_Filled from './icons/Molecule_Filled.svelte';
 import Molecule_Regular from './icons/Molecule_Regular.svelte';
 import Money_Filled from './icons/Money_Filled.svelte';
@@ -2740,6 +2841,12 @@ import PanelLeftHeaderKey_Filled from './icons/PanelLeftHeaderKey_Filled.svelte'
 import PanelLeftHeaderKey_Regular from './icons/PanelLeftHeaderKey_Regular.svelte';
 import PanelLeftKey_Filled from './icons/PanelLeftKey_Filled.svelte';
 import PanelLeftKey_Regular from './icons/PanelLeftKey_Regular.svelte';
+import PanelLeftText_Filled from './icons/PanelLeftText_Filled.svelte';
+import PanelLeftText_Regular from './icons/PanelLeftText_Regular.svelte';
+import PanelLeftTextAdd_Filled from './icons/PanelLeftTextAdd_Filled.svelte';
+import PanelLeftTextAdd_Regular from './icons/PanelLeftTextAdd_Regular.svelte';
+import PanelLeftTextDismiss_Filled from './icons/PanelLeftTextDismiss_Filled.svelte';
+import PanelLeftTextDismiss_Regular from './icons/PanelLeftTextDismiss_Regular.svelte';
 import PanelRight_Filled from './icons/PanelRight_Filled.svelte';
 import PanelRight_Regular from './icons/PanelRight_Regular.svelte';
 import PanelRightAdd_Filled from './icons/PanelRightAdd_Filled.svelte';
@@ -2862,6 +2969,8 @@ import PersonClock_Filled from './icons/PersonClock_Filled.svelte';
 import PersonClock_Regular from './icons/PersonClock_Regular.svelte';
 import PersonDelete_Filled from './icons/PersonDelete_Filled.svelte';
 import PersonDelete_Regular from './icons/PersonDelete_Regular.svelte';
+import PersonDesktop_Filled from './icons/PersonDesktop_Filled.svelte';
+import PersonDesktop_Regular from './icons/PersonDesktop_Regular.svelte';
 import PersonEdit_Filled from './icons/PersonEdit_Filled.svelte';
 import PersonEdit_Regular from './icons/PersonEdit_Regular.svelte';
 import PersonFeedback_Filled from './icons/PersonFeedback_Filled.svelte';
@@ -2874,6 +2983,8 @@ import PersonKey_Filled from './icons/PersonKey_Filled.svelte';
 import PersonKey_Regular from './icons/PersonKey_Regular.svelte';
 import PersonLightbulb_Filled from './icons/PersonLightbulb_Filled.svelte';
 import PersonLightbulb_Regular from './icons/PersonLightbulb_Regular.svelte';
+import PersonLightning_Filled from './icons/PersonLightning_Filled.svelte';
+import PersonLightning_Regular from './icons/PersonLightning_Regular.svelte';
 import PersonLink_Filled from './icons/PersonLink_Filled.svelte';
 import PersonLink_Regular from './icons/PersonLink_Regular.svelte';
 import PersonLock_Filled from './icons/PersonLock_Filled.svelte';
@@ -2890,6 +3001,8 @@ import PersonProhibited_Filled from './icons/PersonProhibited_Filled.svelte';
 import PersonProhibited_Regular from './icons/PersonProhibited_Regular.svelte';
 import PersonQuestionMark_Filled from './icons/PersonQuestionMark_Filled.svelte';
 import PersonQuestionMark_Regular from './icons/PersonQuestionMark_Regular.svelte';
+import PersonRibbon_Filled from './icons/PersonRibbon_Filled.svelte';
+import PersonRibbon_Regular from './icons/PersonRibbon_Regular.svelte';
 import PersonRunning_Filled from './icons/PersonRunning_Filled.svelte';
 import PersonRunning_Regular from './icons/PersonRunning_Regular.svelte';
 import PersonSearch_Filled from './icons/PersonSearch_Filled.svelte';
@@ -2918,6 +3031,8 @@ import PersonVoice_Filled from './icons/PersonVoice_Filled.svelte';
 import PersonVoice_Regular from './icons/PersonVoice_Regular.svelte';
 import PersonWalking_Filled from './icons/PersonWalking_Filled.svelte';
 import PersonWalking_Regular from './icons/PersonWalking_Regular.svelte';
+import PersonWrench_Filled from './icons/PersonWrench_Filled.svelte';
+import PersonWrench_Regular from './icons/PersonWrench_Regular.svelte';
 import Phone_Filled from './icons/Phone_Filled.svelte';
 import Phone_Regular from './icons/Phone_Regular.svelte';
 import PhoneAdd_Filled from './icons/PhoneAdd_Filled.svelte';
@@ -2998,6 +3113,10 @@ import PipelinePlay_Filled from './icons/PipelinePlay_Filled.svelte';
 import PipelinePlay_Regular from './icons/PipelinePlay_Regular.svelte';
 import Pivot_Filled from './icons/Pivot_Filled.svelte';
 import Pivot_Regular from './icons/Pivot_Regular.svelte';
+import PlantGrass_Filled from './icons/PlantGrass_Filled.svelte';
+import PlantGrass_Regular from './icons/PlantGrass_Regular.svelte';
+import PlantRagweed_Filled from './icons/PlantRagweed_Filled.svelte';
+import PlantRagweed_Regular from './icons/PlantRagweed_Regular.svelte';
 import Play_Filled from './icons/Play_Filled.svelte';
 import Play_Regular from './icons/Play_Regular.svelte';
 import PlayCircle_Filled from './icons/PlayCircle_Filled.svelte';
@@ -3329,6 +3448,8 @@ import Settings_Filled from './icons/Settings_Filled.svelte';
 import Settings_Regular from './icons/Settings_Regular.svelte';
 import SettingsChat_Filled from './icons/SettingsChat_Filled.svelte';
 import SettingsChat_Regular from './icons/SettingsChat_Regular.svelte';
+import SettingsCogMultiple_Filled from './icons/SettingsCogMultiple_Filled.svelte';
+import SettingsCogMultiple_Regular from './icons/SettingsCogMultiple_Regular.svelte';
 import ShapeExclude_Filled from './icons/ShapeExclude_Filled.svelte';
 import ShapeExclude_Regular from './icons/ShapeExclude_Regular.svelte';
 import ShapeIntersect_Filled from './icons/ShapeIntersect_Filled.svelte';
@@ -3455,6 +3576,8 @@ import SlideAdd_Filled from './icons/SlideAdd_Filled.svelte';
 import SlideAdd_Regular from './icons/SlideAdd_Regular.svelte';
 import SlideArrowRight_Filled from './icons/SlideArrowRight_Filled.svelte';
 import SlideArrowRight_Regular from './icons/SlideArrowRight_Regular.svelte';
+import SlideContent_Filled from './icons/SlideContent_Filled.svelte';
+import SlideContent_Regular from './icons/SlideContent_Regular.svelte';
 import SlideEraser_Filled from './icons/SlideEraser_Filled.svelte';
 import SlideEraser_Regular from './icons/SlideEraser_Regular.svelte';
 import SlideGrid_Filled from './icons/SlideGrid_Filled.svelte';
@@ -3473,6 +3596,8 @@ import SlideMultipleArrowRight_Filled from './icons/SlideMultipleArrowRight_Fill
 import SlideMultipleArrowRight_Regular from './icons/SlideMultipleArrowRight_Regular.svelte';
 import SlideMultipleSearch_Filled from './icons/SlideMultipleSearch_Filled.svelte';
 import SlideMultipleSearch_Regular from './icons/SlideMultipleSearch_Regular.svelte';
+import SlideRecord_Filled from './icons/SlideRecord_Filled.svelte';
+import SlideRecord_Regular from './icons/SlideRecord_Regular.svelte';
 import SlideSearch_Filled from './icons/SlideSearch_Filled.svelte';
 import SlideSearch_Regular from './icons/SlideSearch_Regular.svelte';
 import SlideSettings_Filled from './icons/SlideSettings_Filled.svelte';
@@ -3573,6 +3698,8 @@ import SquaresNested_Filled from './icons/SquaresNested_Filled.svelte';
 import SquaresNested_Regular from './icons/SquaresNested_Regular.svelte';
 import Stack_Filled from './icons/Stack_Filled.svelte';
 import Stack_Regular from './icons/Stack_Regular.svelte';
+import StackAdd_Filled from './icons/StackAdd_Filled.svelte';
+import StackAdd_Regular from './icons/StackAdd_Regular.svelte';
 import StackArrowForward_Filled from './icons/StackArrowForward_Filled.svelte';
 import StackArrowForward_Regular from './icons/StackArrowForward_Regular.svelte';
 import StackStar_Filled from './icons/StackStar_Filled.svelte';
@@ -3589,6 +3716,8 @@ import StarArrowRightEnd_Filled from './icons/StarArrowRightEnd_Filled.svelte';
 import StarArrowRightEnd_Regular from './icons/StarArrowRightEnd_Regular.svelte';
 import StarArrowRightStart_Filled from './icons/StarArrowRightStart_Filled.svelte';
 import StarArrowRightStart_Regular from './icons/StarArrowRightStart_Regular.svelte';
+import StarCheckmark_Filled from './icons/StarCheckmark_Filled.svelte';
+import StarCheckmark_Regular from './icons/StarCheckmark_Regular.svelte';
 import StarDismiss_Filled from './icons/StarDismiss_Filled.svelte';
 import StarDismiss_Regular from './icons/StarDismiss_Regular.svelte';
 import StarEdit_Filled from './icons/StarEdit_Filled.svelte';
@@ -3723,6 +3852,8 @@ import TableColumnTopBottom_Filled from './icons/TableColumnTopBottom_Filled.sve
 import TableColumnTopBottom_Regular from './icons/TableColumnTopBottom_Regular.svelte';
 import TableCopy_Filled from './icons/TableCopy_Filled.svelte';
 import TableCopy_Regular from './icons/TableCopy_Regular.svelte';
+import TableDefault_Filled from './icons/TableDefault_Filled.svelte';
+import TableDefault_Regular from './icons/TableDefault_Regular.svelte';
 import TableDeleteColumn_Filled from './icons/TableDeleteColumn_Filled.svelte';
 import TableDeleteColumn_Regular from './icons/TableDeleteColumn_Regular.svelte';
 import TableDeleteRow_Filled from './icons/TableDeleteRow_Filled.svelte';
@@ -3787,6 +3918,10 @@ import TableSimple_Filled from './icons/TableSimple_Filled.svelte';
 import TableSimple_Regular from './icons/TableSimple_Regular.svelte';
 import TableSimpleCheckmark_Filled from './icons/TableSimpleCheckmark_Filled.svelte';
 import TableSimpleCheckmark_Regular from './icons/TableSimpleCheckmark_Regular.svelte';
+import TableSimpleExclude_Filled from './icons/TableSimpleExclude_Filled.svelte';
+import TableSimpleExclude_Regular from './icons/TableSimpleExclude_Regular.svelte';
+import TableSimpleInclude_Filled from './icons/TableSimpleInclude_Filled.svelte';
+import TableSimpleInclude_Regular from './icons/TableSimpleInclude_Regular.svelte';
 import TableSimpleMultiple_Filled from './icons/TableSimpleMultiple_Filled.svelte';
 import TableSimpleMultiple_Regular from './icons/TableSimpleMultiple_Regular.svelte';
 import TableSplit_Filled from './icons/TableSplit_Filled.svelte';
@@ -3803,6 +3938,8 @@ import TableSwitch_Filled from './icons/TableSwitch_Filled.svelte';
 import TableSwitch_Regular from './icons/TableSwitch_Regular.svelte';
 import Tablet_Filled from './icons/Tablet_Filled.svelte';
 import Tablet_Regular from './icons/Tablet_Regular.svelte';
+import TabletLaptop_Filled from './icons/TabletLaptop_Filled.svelte';
+import TabletLaptop_Regular from './icons/TabletLaptop_Regular.svelte';
 import TabletSpeaker_Filled from './icons/TabletSpeaker_Filled.svelte';
 import TabletSpeaker_Regular from './icons/TabletSpeaker_Regular.svelte';
 import TabProhibited_Filled from './icons/TabProhibited_Filled.svelte';
@@ -3982,6 +4119,8 @@ import TextBulletListSquareSettings_Filled from './icons/TextBulletListSquareSet
 import TextBulletListSquareSettings_Regular from './icons/TextBulletListSquareSettings_Regular.svelte';
 import TextBulletListSquareShield_Filled from './icons/TextBulletListSquareShield_Filled.svelte';
 import TextBulletListSquareShield_Regular from './icons/TextBulletListSquareShield_Regular.svelte';
+import TextBulletListSquareSparkle_Filled from './icons/TextBulletListSquareSparkle_Filled.svelte';
+import TextBulletListSquareSparkle_Regular from './icons/TextBulletListSquareSparkle_Regular.svelte';
 import TextBulletListSquareToolbox_Filled from './icons/TextBulletListSquareToolbox_Filled.svelte';
 import TextBulletListSquareToolbox_Regular from './icons/TextBulletListSquareToolbox_Regular.svelte';
 import TextBulletListSquareWarning_Filled from './icons/TextBulletListSquareWarning_Filled.svelte';
@@ -4267,6 +4406,8 @@ import TopSpeed_Filled from './icons/TopSpeed_Filled.svelte';
 import TopSpeed_Regular from './icons/TopSpeed_Regular.svelte';
 import Translate_Filled from './icons/Translate_Filled.svelte';
 import Translate_Regular from './icons/Translate_Regular.svelte';
+import TranslateAuto_Filled from './icons/TranslateAuto_Filled.svelte';
+import TranslateAuto_Regular from './icons/TranslateAuto_Regular.svelte';
 import TranslateOff_Filled from './icons/TranslateOff_Filled.svelte';
 import TranslateOff_Regular from './icons/TranslateOff_Regular.svelte';
 import Transmission_Filled from './icons/Transmission_Filled.svelte';
@@ -4287,6 +4428,8 @@ import TriangleLeft_Filled from './icons/TriangleLeft_Filled.svelte';
 import TriangleLeft_Regular from './icons/TriangleLeft_Regular.svelte';
 import TriangleRight_Filled from './icons/TriangleRight_Filled.svelte';
 import TriangleRight_Regular from './icons/TriangleRight_Regular.svelte';
+import TriangleUp_Filled from './icons/TriangleUp_Filled.svelte';
+import TriangleUp_Regular from './icons/TriangleUp_Regular.svelte';
 import Trophy_Filled from './icons/Trophy_Filled.svelte';
 import Trophy_Regular from './icons/Trophy_Regular.svelte';
 import TrophyLock_Filled from './icons/TrophyLock_Filled.svelte';
@@ -4591,6 +4734,8 @@ export default [
     { key: "AddSubtractCircle_Regular", value: AddSubtractCircle_Regular },
     { key: "Airplane_Filled", value: Airplane_Filled },
     { key: "Airplane_Regular", value: Airplane_Regular },
+    { key: "AirplaneLanding_Filled", value: AirplaneLanding_Filled },
+    { key: "AirplaneLanding_Regular", value: AirplaneLanding_Regular },
     { key: "AirplaneTakeOff_Filled", value: AirplaneTakeOff_Filled },
     { key: "AirplaneTakeOff_Regular", value: AirplaneTakeOff_Regular },
     { key: "Album_Filled", value: Album_Filled },
@@ -4649,6 +4794,8 @@ export default [
     { key: "AlignStartHorizontal_Regular", value: AlignStartHorizontal_Regular },
     { key: "AlignStartVertical_Filled", value: AlignStartVertical_Filled },
     { key: "AlignStartVertical_Regular", value: AlignStartVertical_Regular },
+    { key: "AlignStraighten_Filled", value: AlignStraighten_Filled },
+    { key: "AlignStraighten_Regular", value: AlignStraighten_Regular },
     { key: "AlignStretchHorizontal_Filled", value: AlignStretchHorizontal_Filled },
     { key: "AlignStretchHorizontal_Regular", value: AlignStretchHorizontal_Regular },
     { key: "AlignStretchVertical_Filled", value: AlignStretchVertical_Filled },
@@ -4701,6 +4848,8 @@ export default [
     { key: "ArrowAutofitHeight_Regular", value: ArrowAutofitHeight_Regular },
     { key: "ArrowAutofitHeightDotted_Filled", value: ArrowAutofitHeightDotted_Filled },
     { key: "ArrowAutofitHeightDotted_Regular", value: ArrowAutofitHeightDotted_Regular },
+    { key: "ArrowAutofitHeightIn_Filled", value: ArrowAutofitHeightIn_Filled },
+    { key: "ArrowAutofitHeightIn_Regular", value: ArrowAutofitHeightIn_Regular },
     { key: "ArrowAutofitUp_Filled", value: ArrowAutofitUp_Filled },
     { key: "ArrowAutofitUp_Regular", value: ArrowAutofitUp_Regular },
     { key: "ArrowAutofitWidth_Filled", value: ArrowAutofitWidth_Filled },
@@ -4781,6 +4930,12 @@ export default [
     { key: "ArrowFit_Regular", value: ArrowFit_Regular },
     { key: "ArrowFitIn_Filled", value: ArrowFitIn_Filled },
     { key: "ArrowFitIn_Regular", value: ArrowFitIn_Regular },
+    { key: "ArrowFlowDiagonalUpRight_Filled", value: ArrowFlowDiagonalUpRight_Filled },
+    { key: "ArrowFlowDiagonalUpRight_Regular", value: ArrowFlowDiagonalUpRight_Regular },
+    { key: "ArrowFlowUpRight_Filled", value: ArrowFlowUpRight_Filled },
+    { key: "ArrowFlowUpRight_Regular", value: ArrowFlowUpRight_Regular },
+    { key: "ArrowFlowUpRightRectangleMultiple_Filled", value: ArrowFlowUpRightRectangleMultiple_Filled },
+    { key: "ArrowFlowUpRightRectangleMultiple_Regular", value: ArrowFlowUpRightRectangleMultiple_Regular },
     { key: "ArrowForward_Filled", value: ArrowForward_Filled },
     { key: "ArrowForward_Regular", value: ArrowForward_Regular },
     { key: "ArrowForwardDownLightning_Filled", value: ArrowForwardDownLightning_Filled },
@@ -4847,10 +5002,6 @@ export default [
     { key: "ArrowRotateClockwise_Regular", value: ArrowRotateClockwise_Regular },
     { key: "ArrowRotateCounterclockwise_Filled", value: ArrowRotateCounterclockwise_Filled },
     { key: "ArrowRotateCounterclockwise_Regular", value: ArrowRotateCounterclockwise_Regular },
-    { key: "ArrowRouting_Filled", value: ArrowRouting_Filled },
-    { key: "ArrowRouting_Regular", value: ArrowRouting_Regular },
-    { key: "ArrowRoutingRectangleMultiple_Filled", value: ArrowRoutingRectangleMultiple_Filled },
-    { key: "ArrowRoutingRectangleMultiple_Regular", value: ArrowRoutingRectangleMultiple_Regular },
     { key: "ArrowsBidirectional_Filled", value: ArrowsBidirectional_Filled },
     { key: "ArrowsBidirectional_Regular", value: ArrowsBidirectional_Regular },
     { key: "ArrowShuffle_Filled", value: ArrowShuffle_Filled },
@@ -4867,8 +5018,12 @@ export default [
     { key: "ArrowSortUp_Regular", value: ArrowSortUp_Regular },
     { key: "ArrowSplit_Filled", value: ArrowSplit_Filled },
     { key: "ArrowSplit_Regular", value: ArrowSplit_Regular },
+    { key: "ArrowSprint_Filled", value: ArrowSprint_Filled },
+    { key: "ArrowSprint_Regular", value: ArrowSprint_Regular },
     { key: "ArrowSquareDown_Filled", value: ArrowSquareDown_Filled },
     { key: "ArrowSquareDown_Regular", value: ArrowSquareDown_Regular },
+    { key: "ArrowSquareUpRight_Filled", value: ArrowSquareUpRight_Filled },
+    { key: "ArrowSquareUpRight_Regular", value: ArrowSquareUpRight_Regular },
     { key: "ArrowStepBack_Filled", value: ArrowStepBack_Filled },
     { key: "ArrowStepBack_Regular", value: ArrowStepBack_Regular },
     { key: "ArrowStepIn_Filled", value: ArrowStepIn_Filled },
@@ -5017,6 +5172,8 @@ export default [
     { key: "BeakerEdit_Regular", value: BeakerEdit_Regular },
     { key: "BeakerOff_Filled", value: BeakerOff_Filled },
     { key: "BeakerOff_Regular", value: BeakerOff_Regular },
+    { key: "BeakerSettings_Filled", value: BeakerSettings_Filled },
+    { key: "BeakerSettings_Regular", value: BeakerSettings_Regular },
     { key: "Bed_Filled", value: Bed_Filled },
     { key: "Bed_Regular", value: Bed_Regular },
     { key: "BezierCurveSquare_Filled", value: BezierCurveSquare_Filled },
@@ -5025,6 +5182,10 @@ export default [
     { key: "BinderTriangle_Regular", value: BinderTriangle_Regular },
     { key: "BinFull_Filled", value: BinFull_Filled },
     { key: "BinFull_Regular", value: BinFull_Regular },
+    { key: "BinRecycle_Filled", value: BinRecycle_Filled },
+    { key: "BinRecycle_Regular", value: BinRecycle_Regular },
+    { key: "BinRecycleFull_Filled", value: BinRecycleFull_Filled },
+    { key: "BinRecycleFull_Regular", value: BinRecycleFull_Regular },
     { key: "Bluetooth_Filled", value: Bluetooth_Filled },
     { key: "Bluetooth_Regular", value: Bluetooth_Regular },
     { key: "BluetoothConnected_Filled", value: BluetoothConnected_Filled },
@@ -5059,6 +5220,9 @@ export default [
     { key: "BookContacts_Regular", value: BookContacts_Regular },
     { key: "BookDatabase_Filled", value: BookDatabase_Filled },
     { key: "BookDatabase_Regular", value: BookDatabase_Regular },
+    { key: "BookDefault_Filled", value: BookDefault_Filled },
+    { key: "BookDismiss_Filled", value: BookDismiss_Filled },
+    { key: "BookDismiss_Regular", value: BookDismiss_Regular },
     { key: "BookExclamationMark_Filled", value: BookExclamationMark_Filled },
     { key: "BookExclamationMark_Regular", value: BookExclamationMark_Regular },
     { key: "BookGlobe_Filled", value: BookGlobe_Filled },
@@ -5197,6 +5361,8 @@ export default [
     { key: "BriefcaseMedical_Regular", value: BriefcaseMedical_Regular },
     { key: "BriefcaseOff_Filled", value: BriefcaseOff_Filled },
     { key: "BriefcaseOff_Regular", value: BriefcaseOff_Regular },
+    { key: "BriefcaseSearch_Filled", value: BriefcaseSearch_Filled },
+    { key: "BriefcaseSearch_Regular", value: BriefcaseSearch_Regular },
     { key: "BrightnessHigh_Filled", value: BrightnessHigh_Filled },
     { key: "BrightnessHigh_Regular", value: BrightnessHigh_Regular },
     { key: "BrightnessLow_Filled", value: BrightnessLow_Filled },
@@ -5251,6 +5417,8 @@ export default [
     { key: "BuildingSkyscraper_Regular", value: BuildingSkyscraper_Regular },
     { key: "BuildingTownhouse_Filled", value: BuildingTownhouse_Filled },
     { key: "BuildingTownhouse_Regular", value: BuildingTownhouse_Regular },
+    { key: "Button_Filled", value: Button_Filled },
+    { key: "Button_Regular", value: Button_Regular },
     { key: "Calculator_Filled", value: Calculator_Filled },
     { key: "Calculator_Regular", value: Calculator_Regular },
     { key: "CalculatorArrowClockwise_Filled", value: CalculatorArrowClockwise_Filled },
@@ -5391,6 +5559,8 @@ export default [
     { key: "CameraSparkles_Regular", value: CameraSparkles_Regular },
     { key: "CameraSwitch_Filled", value: CameraSwitch_Filled },
     { key: "CameraSwitch_Regular", value: CameraSwitch_Regular },
+    { key: "CardUI_Filled", value: CardUI_Filled },
+    { key: "CardUI_Regular", value: CardUI_Regular },
     { key: "CaretDown_Filled", value: CaretDown_Filled },
     { key: "CaretDown_Regular", value: CaretDown_Regular },
     { key: "CaretDownRight_Filled", value: CaretDownRight_Filled },
@@ -5541,6 +5711,8 @@ export default [
     { key: "ChevronDoubleUp_Regular", value: ChevronDoubleUp_Regular },
     { key: "ChevronDown_Filled", value: ChevronDown_Filled },
     { key: "ChevronDown_Regular", value: ChevronDown_Regular },
+    { key: "ChevronDownUp_Filled", value: ChevronDownUp_Filled },
+    { key: "ChevronDownUp_Regular", value: ChevronDownUp_Regular },
     { key: "ChevronLeft_Filled", value: ChevronLeft_Filled },
     { key: "ChevronLeft_Regular", value: ChevronLeft_Regular },
     { key: "ChevronRight_Filled", value: ChevronRight_Filled },
@@ -5557,6 +5729,8 @@ export default [
     { key: "CircleEraser_Regular", value: CircleEraser_Regular },
     { key: "CircleHalfFill_Filled", value: CircleHalfFill_Filled },
     { key: "CircleHalfFill_Regular", value: CircleHalfFill_Regular },
+    { key: "CircleHint_Filled", value: CircleHint_Filled },
+    { key: "CircleHint_Regular", value: CircleHint_Regular },
     { key: "CircleImage_Filled", value: CircleImage_Filled },
     { key: "CircleImage_Regular", value: CircleImage_Regular },
     { key: "CircleLine_Filled", value: CircleLine_Filled },
@@ -5669,6 +5843,10 @@ export default [
     { key: "CloudArrowUp_Regular", value: CloudArrowUp_Regular },
     { key: "CloudCheckmark_Filled", value: CloudCheckmark_Filled },
     { key: "CloudCheckmark_Regular", value: CloudCheckmark_Regular },
+    { key: "CloudDatabase_Filled", value: CloudDatabase_Filled },
+    { key: "CloudDatabase_Regular", value: CloudDatabase_Regular },
+    { key: "CloudDesktop_Filled", value: CloudDesktop_Filled },
+    { key: "CloudDesktop_Regular", value: CloudDesktop_Regular },
     { key: "CloudDismiss_Filled", value: CloudDismiss_Filled },
     { key: "CloudDismiss_Regular", value: CloudDismiss_Regular },
     { key: "CloudEdit_Filled", value: CloudEdit_Filled },
@@ -5752,6 +5930,10 @@ export default [
     { key: "ColumnDoubleCompare_Regular", value: ColumnDoubleCompare_Regular },
     { key: "ColumnEdit_Filled", value: ColumnEdit_Filled },
     { key: "ColumnEdit_Regular", value: ColumnEdit_Regular },
+    { key: "ColumnSingle_Filled", value: ColumnSingle_Filled },
+    { key: "ColumnSingle_Regular", value: ColumnSingle_Regular },
+    { key: "ColumnSingleCompare_Filled", value: ColumnSingleCompare_Filled },
+    { key: "ColumnSingleCompare_Regular", value: ColumnSingleCompare_Regular },
     { key: "ColumnTriple_Filled", value: ColumnTriple_Filled },
     { key: "ColumnTriple_Regular", value: ColumnTriple_Regular },
     { key: "ColumnTripleEdit_Filled", value: ColumnTripleEdit_Filled },
@@ -5862,6 +6044,8 @@ export default [
     { key: "CropInterim_Regular", value: CropInterim_Regular },
     { key: "CropInterimOff_Filled", value: CropInterimOff_Filled },
     { key: "CropInterimOff_Regular", value: CropInterimOff_Regular },
+    { key: "CropSparkle_Filled", value: CropSparkle_Filled },
+    { key: "CropSparkle_Regular", value: CropSparkle_Regular },
     { key: "Crown_Filled", value: Crown_Filled },
     { key: "Crown_Regular", value: Crown_Regular },
     { key: "Cube_Filled", value: Cube_Filled },
@@ -5894,6 +6078,8 @@ export default [
     { key: "CursorHover_Regular", value: CursorHover_Regular },
     { key: "CursorHoverOff_Filled", value: CursorHoverOff_Filled },
     { key: "CursorHoverOff_Regular", value: CursorHoverOff_Regular },
+    { key: "CursorProhibited_Filled", value: CursorProhibited_Filled },
+    { key: "CursorProhibited_Regular", value: CursorProhibited_Regular },
     { key: "Cut_Filled", value: Cut_Filled },
     { key: "Cut_Regular", value: Cut_Regular },
     { key: "DarkTheme_Filled", value: DarkTheme_Filled },
@@ -5986,8 +6172,12 @@ export default [
     { key: "Dentist_Regular", value: Dentist_Regular },
     { key: "DesignIdeas_Filled", value: DesignIdeas_Filled },
     { key: "DesignIdeas_Regular", value: DesignIdeas_Regular },
+    { key: "Desk_Filled", value: Desk_Filled },
+    { key: "Desk_Regular", value: Desk_Regular },
     { key: "Desktop_Filled", value: Desktop_Filled },
     { key: "Desktop_Regular", value: Desktop_Regular },
+    { key: "DesktopArrowDown_Filled", value: DesktopArrowDown_Filled },
+    { key: "DesktopArrowDown_Regular", value: DesktopArrowDown_Regular },
     { key: "DesktopArrowRight_Filled", value: DesktopArrowRight_Filled },
     { key: "DesktopArrowRight_Regular", value: DesktopArrowRight_Regular },
     { key: "DesktopCheckmark_Filled", value: DesktopCheckmark_Filled },
@@ -6014,6 +6204,8 @@ export default [
     { key: "DesktopSync_Regular", value: DesktopSync_Regular },
     { key: "DesktopToolbox_Filled", value: DesktopToolbox_Filled },
     { key: "DesktopToolbox_Regular", value: DesktopToolbox_Regular },
+    { key: "DesktopTower_Filled", value: DesktopTower_Filled },
+    { key: "DesktopTower_Regular", value: DesktopTower_Regular },
     { key: "DeveloperBoard_Filled", value: DeveloperBoard_Filled },
     { key: "DeveloperBoard_Regular", value: DeveloperBoard_Regular },
     { key: "DeveloperBoardLightning_Filled", value: DeveloperBoardLightning_Filled },
@@ -6144,10 +6336,16 @@ export default [
     { key: "DocumentHeart_Regular", value: DocumentHeart_Regular },
     { key: "DocumentHeartPulse_Filled", value: DocumentHeartPulse_Filled },
     { key: "DocumentHeartPulse_Regular", value: DocumentHeartPulse_Regular },
+    { key: "DocumentImage_Filled", value: DocumentImage_Filled },
+    { key: "DocumentImage_Regular", value: DocumentImage_Regular },
+    { key: "DocumentJAVA_Filled", value: DocumentJAVA_Filled },
+    { key: "DocumentJAVA_Regular", value: DocumentJAVA_Regular },
     { key: "DocumentJavascript_Filled", value: DocumentJavascript_Filled },
     { key: "DocumentJavascript_Regular", value: DocumentJavascript_Regular },
     { key: "DocumentJS_Filled", value: DocumentJS_Filled },
     { key: "DocumentJS_Regular", value: DocumentJS_Regular },
+    { key: "DocumentKey_Filled", value: DocumentKey_Filled },
+    { key: "DocumentKey_Regular", value: DocumentKey_Regular },
     { key: "DocumentLandscape_Filled", value: DocumentLandscape_Filled },
     { key: "DocumentLandscape_Regular", value: DocumentLandscape_Regular },
     { key: "DocumentLandscapeData_Filled", value: DocumentLandscapeData_Filled },
@@ -6178,10 +6376,14 @@ export default [
     { key: "DocumentOnePage_Regular", value: DocumentOnePage_Regular },
     { key: "DocumentOnePageAdd_Filled", value: DocumentOnePageAdd_Filled },
     { key: "DocumentOnePageAdd_Regular", value: DocumentOnePageAdd_Regular },
+    { key: "DocumentOnePageBeaker_Filled", value: DocumentOnePageBeaker_Filled },
+    { key: "DocumentOnePageBeaker_Regular", value: DocumentOnePageBeaker_Regular },
     { key: "DocumentOnePageColumns_Filled", value: DocumentOnePageColumns_Filled },
     { key: "DocumentOnePageColumns_Regular", value: DocumentOnePageColumns_Regular },
     { key: "DocumentOnePageLink_Filled", value: DocumentOnePageLink_Filled },
     { key: "DocumentOnePageLink_Regular", value: DocumentOnePageLink_Regular },
+    { key: "DocumentOnePageMultiple_Filled", value: DocumentOnePageMultiple_Filled },
+    { key: "DocumentOnePageMultiple_Regular", value: DocumentOnePageMultiple_Regular },
     { key: "DocumentOnePageSparkle_Filled", value: DocumentOnePageSparkle_Filled },
     { key: "DocumentOnePageSparkle_Regular", value: DocumentOnePageSparkle_Regular },
     { key: "DocumentPageBottomCenter_Filled", value: DocumentPageBottomCenter_Filled },
@@ -6226,6 +6428,8 @@ export default [
     { key: "DocumentRB_Regular", value: DocumentRB_Regular },
     { key: "DocumentRibbon_Filled", value: DocumentRibbon_Filled },
     { key: "DocumentRibbon_Regular", value: DocumentRibbon_Regular },
+    { key: "DocumentSASS_Filled", value: DocumentSASS_Filled },
+    { key: "DocumentSASS_Regular", value: DocumentSASS_Regular },
     { key: "DocumentSave_Filled", value: DocumentSave_Filled },
     { key: "DocumentSave_Regular", value: DocumentSave_Regular },
     { key: "DocumentSearch_Filled", value: DocumentSearch_Filled },
@@ -6270,6 +6474,8 @@ export default [
     { key: "DocumentVB_Regular", value: DocumentVB_Regular },
     { key: "DocumentWidth_Filled", value: DocumentWidth_Filled },
     { key: "DocumentWidth_Regular", value: DocumentWidth_Regular },
+    { key: "DocumentYML_Filled", value: DocumentYML_Filled },
+    { key: "DocumentYML_Regular", value: DocumentYML_Regular },
     { key: "Door_Filled", value: Door_Filled },
     { key: "Door_Regular", value: Door_Regular },
     { key: "DoorArrowLeft_Filled", value: DoorArrowLeft_Filled },
@@ -6368,6 +6574,8 @@ export default [
     { key: "DualScreenVibrate_Regular", value: DualScreenVibrate_Regular },
     { key: "Dumbbell_Filled", value: Dumbbell_Filled },
     { key: "Dumbbell_Regular", value: Dumbbell_Regular },
+    { key: "Dust_Filled", value: Dust_Filled },
+    { key: "Dust_Regular", value: Dust_Regular },
     { key: "Earth_Filled", value: Earth_Filled },
     { key: "Earth_Regular", value: Earth_Regular },
     { key: "EarthLeaf_Filled", value: EarthLeaf_Filled },
@@ -6394,6 +6602,8 @@ export default [
     { key: "EmojiEdit_Regular", value: EmojiEdit_Regular },
     { key: "EmojiHand_Filled", value: EmojiHand_Filled },
     { key: "EmojiHand_Regular", value: EmojiHand_Regular },
+    { key: "EmojiHint_Filled", value: EmojiHint_Filled },
+    { key: "EmojiHint_Regular", value: EmojiHint_Regular },
     { key: "EmojiLaugh_Filled", value: EmojiLaugh_Filled },
     { key: "EmojiLaugh_Regular", value: EmojiLaugh_Regular },
     { key: "EmojiMeh_Filled", value: EmojiMeh_Filled },
@@ -6460,8 +6670,12 @@ export default [
     { key: "Feed_Regular", value: Feed_Regular },
     { key: "Filmstrip_Filled", value: Filmstrip_Filled },
     { key: "Filmstrip_Regular", value: Filmstrip_Regular },
+    { key: "FilmstripOff_Filled", value: FilmstripOff_Filled },
+    { key: "FilmstripOff_Regular", value: FilmstripOff_Regular },
     { key: "FilmstripPlay_Filled", value: FilmstripPlay_Filled },
     { key: "FilmstripPlay_Regular", value: FilmstripPlay_Regular },
+    { key: "FilmstripSplit_Filled", value: FilmstripSplit_Filled },
+    { key: "FilmstripSplit_Regular", value: FilmstripSplit_Regular },
     { key: "Filter_Filled", value: Filter_Filled },
     { key: "Filter_Regular", value: Filter_Regular },
     { key: "FilterAdd_Filled", value: FilterAdd_Filled },
@@ -6537,6 +6751,8 @@ export default [
     { key: "FolderGlobe_Regular", value: FolderGlobe_Regular },
     { key: "FolderLink_Filled", value: FolderLink_Filled },
     { key: "FolderLink_Regular", value: FolderLink_Regular },
+    { key: "FolderList_Filled", value: FolderList_Filled },
+    { key: "FolderList_Regular", value: FolderList_Regular },
     { key: "FolderMail_Filled", value: FolderMail_Filled },
     { key: "FolderMail_Regular", value: FolderMail_Regular },
     { key: "FolderMultiple_Filled", value: FolderMultiple_Filled },
@@ -6625,6 +6841,8 @@ export default [
     { key: "GaugeAdd_Regular", value: GaugeAdd_Regular },
     { key: "Gavel_Filled", value: Gavel_Filled },
     { key: "Gavel_Regular", value: Gavel_Regular },
+    { key: "GavelProhibited_Filled", value: GavelProhibited_Filled },
+    { key: "GavelProhibited_Regular", value: GavelProhibited_Regular },
     { key: "Gesture_Filled", value: Gesture_Filled },
     { key: "Gesture_Regular", value: Gesture_Regular },
     { key: "GIF_Filled", value: GIF_Filled },
@@ -6641,6 +6859,8 @@ export default [
     { key: "GiftCardMoney_Regular", value: GiftCardMoney_Regular },
     { key: "GiftCardMultiple_Filled", value: GiftCardMultiple_Filled },
     { key: "GiftCardMultiple_Regular", value: GiftCardMultiple_Regular },
+    { key: "GiftOpen_Filled", value: GiftOpen_Filled },
+    { key: "GiftOpen_Regular", value: GiftOpen_Regular },
     { key: "Github_Filled", value: Github_Filled },
     { key: "Glance_Filled", value: Glance_Filled },
     { key: "Glance_Regular", value: Glance_Regular },
@@ -6748,6 +6968,12 @@ export default [
     { key: "HeartCircleHint_Regular", value: HeartCircleHint_Regular },
     { key: "HeartPulse_Filled", value: HeartPulse_Filled },
     { key: "HeartPulse_Regular", value: HeartPulse_Regular },
+    { key: "HeartPulseCheckmark_Filled", value: HeartPulseCheckmark_Filled },
+    { key: "HeartPulseCheckmark_Regular", value: HeartPulseCheckmark_Regular },
+    { key: "HeartPulseError_Filled", value: HeartPulseError_Filled },
+    { key: "HeartPulseError_Regular", value: HeartPulseError_Regular },
+    { key: "HeartPulseWarning_Filled", value: HeartPulseWarning_Filled },
+    { key: "HeartPulseWarning_Regular", value: HeartPulseWarning_Regular },
     { key: "Highlight_Filled", value: Highlight_Filled },
     { key: "Highlight_Regular", value: Highlight_Regular },
     { key: "HighlightAccent_Filled", value: HighlightAccent_Filled },
@@ -6765,6 +6991,8 @@ export default [
     { key: "HomeCheckmark_Regular", value: HomeCheckmark_Regular },
     { key: "HomeDatabase_Filled", value: HomeDatabase_Filled },
     { key: "HomeDatabase_Regular", value: HomeDatabase_Regular },
+    { key: "HomeHeart_Filled", value: HomeHeart_Filled },
+    { key: "HomeHeart_Regular", value: HomeHeart_Regular },
     { key: "HomeMore_Filled", value: HomeMore_Filled },
     { key: "HomeMore_Regular", value: HomeMore_Regular },
     { key: "HomePerson_Filled", value: HomePerson_Filled },
@@ -6817,6 +7045,8 @@ export default [
     { key: "ImageSearch_Regular", value: ImageSearch_Regular },
     { key: "ImageShadow_Filled", value: ImageShadow_Filled },
     { key: "ImageShadow_Regular", value: ImageShadow_Regular },
+    { key: "ImageStack_Filled", value: ImageStack_Filled },
+    { key: "ImageStack_Regular", value: ImageStack_Regular },
     { key: "ImageTable_Filled", value: ImageTable_Filled },
     { key: "ImageTable_Regular", value: ImageTable_Regular },
     { key: "ImmersiveReader_Filled", value: ImmersiveReader_Filled },
@@ -6890,6 +7120,8 @@ export default [
     { key: "Laptop_Regular", value: Laptop_Regular },
     { key: "LaptopDismiss_Filled", value: LaptopDismiss_Filled },
     { key: "LaptopDismiss_Regular", value: LaptopDismiss_Regular },
+    { key: "LaptopShield_Filled", value: LaptopShield_Filled },
+    { key: "LaptopShield_Regular", value: LaptopShield_Regular },
     { key: "LaserTool_Filled", value: LaserTool_Filled },
     { key: "LaserTool_Regular", value: LaserTool_Regular },
     { key: "Lasso_Filled", value: Lasso_Filled },
@@ -6914,6 +7146,8 @@ export default [
     { key: "Library_Regular", value: Library_Regular },
     { key: "Lightbulb_Filled", value: Lightbulb_Filled },
     { key: "Lightbulb_Regular", value: Lightbulb_Regular },
+    { key: "LightbulbCheckmark_Filled", value: LightbulbCheckmark_Filled },
+    { key: "LightbulbCheckmark_Regular", value: LightbulbCheckmark_Regular },
     { key: "LightbulbCircle_Filled", value: LightbulbCircle_Filled },
     { key: "LightbulbCircle_Regular", value: LightbulbCircle_Regular },
     { key: "LightbulbFilament_Filled", value: LightbulbFilament_Filled },
@@ -6954,6 +7188,14 @@ export default [
     { key: "LinkToolbox_Regular", value: LinkToolbox_Regular },
     { key: "List_Filled", value: List_Filled },
     { key: "List_Regular", value: List_Regular },
+    { key: "ListBar_Filled", value: ListBar_Filled },
+    { key: "ListBar_Regular", value: ListBar_Regular },
+    { key: "ListBarTree_Filled", value: ListBarTree_Filled },
+    { key: "ListBarTree_Regular", value: ListBarTree_Regular },
+    { key: "ListBarTreeOffset_Filled", value: ListBarTreeOffset_Filled },
+    { key: "ListBarTreeOffset_Regular", value: ListBarTreeOffset_Regular },
+    { key: "ListRTL_Filled", value: ListRTL_Filled },
+    { key: "ListRTL_Regular", value: ListRTL_Regular },
     { key: "Live_Filled", value: Live_Filled },
     { key: "Live_Regular", value: Live_Regular },
     { key: "LiveOff_Filled", value: LiveOff_Filled },
@@ -7134,6 +7376,8 @@ export default [
     { key: "Midi_Regular", value: Midi_Regular },
     { key: "MobileOptimized_Filled", value: MobileOptimized_Filled },
     { key: "MobileOptimized_Regular", value: MobileOptimized_Regular },
+    { key: "Mold_Filled", value: Mold_Filled },
+    { key: "Mold_Regular", value: Mold_Regular },
     { key: "Molecule_Filled", value: Molecule_Filled },
     { key: "Molecule_Regular", value: Molecule_Regular },
     { key: "Money_Filled", value: Money_Filled },
@@ -7315,6 +7559,12 @@ export default [
     { key: "PanelLeftHeaderKey_Regular", value: PanelLeftHeaderKey_Regular },
     { key: "PanelLeftKey_Filled", value: PanelLeftKey_Filled },
     { key: "PanelLeftKey_Regular", value: PanelLeftKey_Regular },
+    { key: "PanelLeftText_Filled", value: PanelLeftText_Filled },
+    { key: "PanelLeftText_Regular", value: PanelLeftText_Regular },
+    { key: "PanelLeftTextAdd_Filled", value: PanelLeftTextAdd_Filled },
+    { key: "PanelLeftTextAdd_Regular", value: PanelLeftTextAdd_Regular },
+    { key: "PanelLeftTextDismiss_Filled", value: PanelLeftTextDismiss_Filled },
+    { key: "PanelLeftTextDismiss_Regular", value: PanelLeftTextDismiss_Regular },
     { key: "PanelRight_Filled", value: PanelRight_Filled },
     { key: "PanelRight_Regular", value: PanelRight_Regular },
     { key: "PanelRightAdd_Filled", value: PanelRightAdd_Filled },
@@ -7437,6 +7687,8 @@ export default [
     { key: "PersonClock_Regular", value: PersonClock_Regular },
     { key: "PersonDelete_Filled", value: PersonDelete_Filled },
     { key: "PersonDelete_Regular", value: PersonDelete_Regular },
+    { key: "PersonDesktop_Filled", value: PersonDesktop_Filled },
+    { key: "PersonDesktop_Regular", value: PersonDesktop_Regular },
     { key: "PersonEdit_Filled", value: PersonEdit_Filled },
     { key: "PersonEdit_Regular", value: PersonEdit_Regular },
     { key: "PersonFeedback_Filled", value: PersonFeedback_Filled },
@@ -7449,6 +7701,8 @@ export default [
     { key: "PersonKey_Regular", value: PersonKey_Regular },
     { key: "PersonLightbulb_Filled", value: PersonLightbulb_Filled },
     { key: "PersonLightbulb_Regular", value: PersonLightbulb_Regular },
+    { key: "PersonLightning_Filled", value: PersonLightning_Filled },
+    { key: "PersonLightning_Regular", value: PersonLightning_Regular },
     { key: "PersonLink_Filled", value: PersonLink_Filled },
     { key: "PersonLink_Regular", value: PersonLink_Regular },
     { key: "PersonLock_Filled", value: PersonLock_Filled },
@@ -7465,6 +7719,8 @@ export default [
     { key: "PersonProhibited_Regular", value: PersonProhibited_Regular },
     { key: "PersonQuestionMark_Filled", value: PersonQuestionMark_Filled },
     { key: "PersonQuestionMark_Regular", value: PersonQuestionMark_Regular },
+    { key: "PersonRibbon_Filled", value: PersonRibbon_Filled },
+    { key: "PersonRibbon_Regular", value: PersonRibbon_Regular },
     { key: "PersonRunning_Filled", value: PersonRunning_Filled },
     { key: "PersonRunning_Regular", value: PersonRunning_Regular },
     { key: "PersonSearch_Filled", value: PersonSearch_Filled },
@@ -7493,6 +7749,8 @@ export default [
     { key: "PersonVoice_Regular", value: PersonVoice_Regular },
     { key: "PersonWalking_Filled", value: PersonWalking_Filled },
     { key: "PersonWalking_Regular", value: PersonWalking_Regular },
+    { key: "PersonWrench_Filled", value: PersonWrench_Filled },
+    { key: "PersonWrench_Regular", value: PersonWrench_Regular },
     { key: "Phone_Filled", value: Phone_Filled },
     { key: "Phone_Regular", value: Phone_Regular },
     { key: "PhoneAdd_Filled", value: PhoneAdd_Filled },
@@ -7573,6 +7831,10 @@ export default [
     { key: "PipelinePlay_Regular", value: PipelinePlay_Regular },
     { key: "Pivot_Filled", value: Pivot_Filled },
     { key: "Pivot_Regular", value: Pivot_Regular },
+    { key: "PlantGrass_Filled", value: PlantGrass_Filled },
+    { key: "PlantGrass_Regular", value: PlantGrass_Regular },
+    { key: "PlantRagweed_Filled", value: PlantRagweed_Filled },
+    { key: "PlantRagweed_Regular", value: PlantRagweed_Regular },
     { key: "Play_Filled", value: Play_Filled },
     { key: "Play_Regular", value: Play_Regular },
     { key: "PlayCircle_Filled", value: PlayCircle_Filled },
@@ -7904,6 +8166,8 @@ export default [
     { key: "Settings_Regular", value: Settings_Regular },
     { key: "SettingsChat_Filled", value: SettingsChat_Filled },
     { key: "SettingsChat_Regular", value: SettingsChat_Regular },
+    { key: "SettingsCogMultiple_Filled", value: SettingsCogMultiple_Filled },
+    { key: "SettingsCogMultiple_Regular", value: SettingsCogMultiple_Regular },
     { key: "ShapeExclude_Filled", value: ShapeExclude_Filled },
     { key: "ShapeExclude_Regular", value: ShapeExclude_Regular },
     { key: "ShapeIntersect_Filled", value: ShapeIntersect_Filled },
@@ -8030,6 +8294,8 @@ export default [
     { key: "SlideAdd_Regular", value: SlideAdd_Regular },
     { key: "SlideArrowRight_Filled", value: SlideArrowRight_Filled },
     { key: "SlideArrowRight_Regular", value: SlideArrowRight_Regular },
+    { key: "SlideContent_Filled", value: SlideContent_Filled },
+    { key: "SlideContent_Regular", value: SlideContent_Regular },
     { key: "SlideEraser_Filled", value: SlideEraser_Filled },
     { key: "SlideEraser_Regular", value: SlideEraser_Regular },
     { key: "SlideGrid_Filled", value: SlideGrid_Filled },
@@ -8048,6 +8314,8 @@ export default [
     { key: "SlideMultipleArrowRight_Regular", value: SlideMultipleArrowRight_Regular },
     { key: "SlideMultipleSearch_Filled", value: SlideMultipleSearch_Filled },
     { key: "SlideMultipleSearch_Regular", value: SlideMultipleSearch_Regular },
+    { key: "SlideRecord_Filled", value: SlideRecord_Filled },
+    { key: "SlideRecord_Regular", value: SlideRecord_Regular },
     { key: "SlideSearch_Filled", value: SlideSearch_Filled },
     { key: "SlideSearch_Regular", value: SlideSearch_Regular },
     { key: "SlideSettings_Filled", value: SlideSettings_Filled },
@@ -8148,6 +8416,8 @@ export default [
     { key: "SquaresNested_Regular", value: SquaresNested_Regular },
     { key: "Stack_Filled", value: Stack_Filled },
     { key: "Stack_Regular", value: Stack_Regular },
+    { key: "StackAdd_Filled", value: StackAdd_Filled },
+    { key: "StackAdd_Regular", value: StackAdd_Regular },
     { key: "StackArrowForward_Filled", value: StackArrowForward_Filled },
     { key: "StackArrowForward_Regular", value: StackArrowForward_Regular },
     { key: "StackStar_Filled", value: StackStar_Filled },
@@ -8164,6 +8434,8 @@ export default [
     { key: "StarArrowRightEnd_Regular", value: StarArrowRightEnd_Regular },
     { key: "StarArrowRightStart_Filled", value: StarArrowRightStart_Filled },
     { key: "StarArrowRightStart_Regular", value: StarArrowRightStart_Regular },
+    { key: "StarCheckmark_Filled", value: StarCheckmark_Filled },
+    { key: "StarCheckmark_Regular", value: StarCheckmark_Regular },
     { key: "StarDismiss_Filled", value: StarDismiss_Filled },
     { key: "StarDismiss_Regular", value: StarDismiss_Regular },
     { key: "StarEdit_Filled", value: StarEdit_Filled },
@@ -8298,6 +8570,8 @@ export default [
     { key: "TableColumnTopBottom_Regular", value: TableColumnTopBottom_Regular },
     { key: "TableCopy_Filled", value: TableCopy_Filled },
     { key: "TableCopy_Regular", value: TableCopy_Regular },
+    { key: "TableDefault_Filled", value: TableDefault_Filled },
+    { key: "TableDefault_Regular", value: TableDefault_Regular },
     { key: "TableDeleteColumn_Filled", value: TableDeleteColumn_Filled },
     { key: "TableDeleteColumn_Regular", value: TableDeleteColumn_Regular },
     { key: "TableDeleteRow_Filled", value: TableDeleteRow_Filled },
@@ -8362,6 +8636,10 @@ export default [
     { key: "TableSimple_Regular", value: TableSimple_Regular },
     { key: "TableSimpleCheckmark_Filled", value: TableSimpleCheckmark_Filled },
     { key: "TableSimpleCheckmark_Regular", value: TableSimpleCheckmark_Regular },
+    { key: "TableSimpleExclude_Filled", value: TableSimpleExclude_Filled },
+    { key: "TableSimpleExclude_Regular", value: TableSimpleExclude_Regular },
+    { key: "TableSimpleInclude_Filled", value: TableSimpleInclude_Filled },
+    { key: "TableSimpleInclude_Regular", value: TableSimpleInclude_Regular },
     { key: "TableSimpleMultiple_Filled", value: TableSimpleMultiple_Filled },
     { key: "TableSimpleMultiple_Regular", value: TableSimpleMultiple_Regular },
     { key: "TableSplit_Filled", value: TableSplit_Filled },
@@ -8378,6 +8656,8 @@ export default [
     { key: "TableSwitch_Regular", value: TableSwitch_Regular },
     { key: "Tablet_Filled", value: Tablet_Filled },
     { key: "Tablet_Regular", value: Tablet_Regular },
+    { key: "TabletLaptop_Filled", value: TabletLaptop_Filled },
+    { key: "TabletLaptop_Regular", value: TabletLaptop_Regular },
     { key: "TabletSpeaker_Filled", value: TabletSpeaker_Filled },
     { key: "TabletSpeaker_Regular", value: TabletSpeaker_Regular },
     { key: "TabProhibited_Filled", value: TabProhibited_Filled },
@@ -8557,6 +8837,8 @@ export default [
     { key: "TextBulletListSquareSettings_Regular", value: TextBulletListSquareSettings_Regular },
     { key: "TextBulletListSquareShield_Filled", value: TextBulletListSquareShield_Filled },
     { key: "TextBulletListSquareShield_Regular", value: TextBulletListSquareShield_Regular },
+    { key: "TextBulletListSquareSparkle_Filled", value: TextBulletListSquareSparkle_Filled },
+    { key: "TextBulletListSquareSparkle_Regular", value: TextBulletListSquareSparkle_Regular },
     { key: "TextBulletListSquareToolbox_Filled", value: TextBulletListSquareToolbox_Filled },
     { key: "TextBulletListSquareToolbox_Regular", value: TextBulletListSquareToolbox_Regular },
     { key: "TextBulletListSquareWarning_Filled", value: TextBulletListSquareWarning_Filled },
@@ -8842,6 +9124,8 @@ export default [
     { key: "TopSpeed_Regular", value: TopSpeed_Regular },
     { key: "Translate_Filled", value: Translate_Filled },
     { key: "Translate_Regular", value: Translate_Regular },
+    { key: "TranslateAuto_Filled", value: TranslateAuto_Filled },
+    { key: "TranslateAuto_Regular", value: TranslateAuto_Regular },
     { key: "TranslateOff_Filled", value: TranslateOff_Filled },
     { key: "TranslateOff_Regular", value: TranslateOff_Regular },
     { key: "Transmission_Filled", value: Transmission_Filled },
@@ -8862,6 +9146,8 @@ export default [
     { key: "TriangleLeft_Regular", value: TriangleLeft_Regular },
     { key: "TriangleRight_Filled", value: TriangleRight_Filled },
     { key: "TriangleRight_Regular", value: TriangleRight_Regular },
+    { key: "TriangleUp_Filled", value: TriangleUp_Filled },
+    { key: "TriangleUp_Regular", value: TriangleUp_Regular },
     { key: "Trophy_Filled", value: Trophy_Filled },
     { key: "Trophy_Regular", value: Trophy_Regular },
     { key: "TrophyLock_Filled", value: TrophyLock_Filled },
