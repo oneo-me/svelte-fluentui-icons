@@ -4,6 +4,7 @@
     import Search_Filled from "../icons/Search_Filled.svelte";
     import Earth_Filled from "../icons/Earth_Filled.svelte";
 
+    import { Grid } from "svelte-virtual";
     import Icon from "./Icon.svelte";
     import Icons from "../Index.js";
     import { onMount } from "svelte";
@@ -78,11 +79,11 @@
 </div>
 
 <div class="container mx-auto px-4">
-    <div class="flex flex-wrap justify-center gap-4 my-4">
-        {#each icons as icon}
-            <Icon key={icon.key} value={icon.value} />
-        {/each}
-    </div>
+    <Grid itemCount={icons.length} itemHeight={80} itemWidth={80} height={600}>
+        <div slot="item" let:index let:style {style}>
+            <Icon key={icons[index].key} value={icons[index].value} />
+        </div>
+    </Grid>
 </div>
 
 <div
