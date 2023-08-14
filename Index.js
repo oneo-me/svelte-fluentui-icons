@@ -142,6 +142,8 @@ import ArrowBetweenDown_Filled from './icons/ArrowBetweenDown_Filled.svelte';
 import ArrowBetweenDown_Regular from './icons/ArrowBetweenDown_Regular.svelte';
 import ArrowBetweenUp_Filled from './icons/ArrowBetweenUp_Filled.svelte';
 import ArrowBetweenUp_Regular from './icons/ArrowBetweenUp_Regular.svelte';
+import ArrowBidirectionalLeftRight_Filled from './icons/ArrowBidirectionalLeftRight_Filled.svelte';
+import ArrowBidirectionalLeftRight_Regular from './icons/ArrowBidirectionalLeftRight_Regular.svelte';
 import ArrowBidirectionalUpDown_Filled from './icons/ArrowBidirectionalUpDown_Filled.svelte';
 import ArrowBidirectionalUpDown_Regular from './icons/ArrowBidirectionalUpDown_Regular.svelte';
 import ArrowBounce_Filled from './icons/ArrowBounce_Filled.svelte';
@@ -696,6 +698,8 @@ import BuildingHome_Filled from './icons/BuildingHome_Filled.svelte';
 import BuildingHome_Regular from './icons/BuildingHome_Regular.svelte';
 import BuildingLighthouse_Filled from './icons/BuildingLighthouse_Filled.svelte';
 import BuildingLighthouse_Regular from './icons/BuildingLighthouse_Regular.svelte';
+import BuildingMosque_Filled from './icons/BuildingMosque_Filled.svelte';
+import BuildingMosque_Regular from './icons/BuildingMosque_Regular.svelte';
 import BuildingMultiple_Filled from './icons/BuildingMultiple_Filled.svelte';
 import BuildingMultiple_Regular from './icons/BuildingMultiple_Regular.svelte';
 import BuildingPeople_Filled from './icons/BuildingPeople_Filled.svelte';
@@ -986,6 +990,8 @@ import Checkmark_Filled from './icons/Checkmark_Filled.svelte';
 import Checkmark_Regular from './icons/Checkmark_Regular.svelte';
 import CheckmarkCircle_Filled from './icons/CheckmarkCircle_Filled.svelte';
 import CheckmarkCircle_Regular from './icons/CheckmarkCircle_Regular.svelte';
+import CheckmarkCircleSquare_Filled from './icons/CheckmarkCircleSquare_Filled.svelte';
+import CheckmarkCircleSquare_Regular from './icons/CheckmarkCircleSquare_Regular.svelte';
 import CheckmarkLock_Filled from './icons/CheckmarkLock_Filled.svelte';
 import CheckmarkLock_Regular from './icons/CheckmarkLock_Regular.svelte';
 import CheckmarkNote_Filled from './icons/CheckmarkNote_Filled.svelte';
@@ -2288,6 +2294,8 @@ import HeartCircle_Filled from './icons/HeartCircle_Filled.svelte';
 import HeartCircle_Regular from './icons/HeartCircle_Regular.svelte';
 import HeartCircleHint_Filled from './icons/HeartCircleHint_Filled.svelte';
 import HeartCircleHint_Regular from './icons/HeartCircleHint_Regular.svelte';
+import HeartOff_Filled from './icons/HeartOff_Filled.svelte';
+import HeartOff_Regular from './icons/HeartOff_Regular.svelte';
 import HeartPulse_Filled from './icons/HeartPulse_Filled.svelte';
 import HeartPulse_Regular from './icons/HeartPulse_Regular.svelte';
 import HeartPulseCheckmark_Filled from './icons/HeartPulseCheckmark_Filled.svelte';
@@ -2296,6 +2304,10 @@ import HeartPulseError_Filled from './icons/HeartPulseError_Filled.svelte';
 import HeartPulseError_Regular from './icons/HeartPulseError_Regular.svelte';
 import HeartPulseWarning_Filled from './icons/HeartPulseWarning_Filled.svelte';
 import HeartPulseWarning_Regular from './icons/HeartPulseWarning_Regular.svelte';
+import Hexagon_Filled from './icons/Hexagon_Filled.svelte';
+import Hexagon_Regular from './icons/Hexagon_Regular.svelte';
+import HexagonThree_Filled from './icons/HexagonThree_Filled.svelte';
+import HexagonThree_Regular from './icons/HexagonThree_Regular.svelte';
 import Highlight_Filled from './icons/Highlight_Filled.svelte';
 import Highlight_Regular from './icons/Highlight_Regular.svelte';
 import HighlightAccent_Filled from './icons/HighlightAccent_Filled.svelte';
@@ -2492,6 +2504,10 @@ import LineDashes_Filled from './icons/LineDashes_Filled.svelte';
 import LineDashes_Regular from './icons/LineDashes_Regular.svelte';
 import LineHorizontal1_Filled from './icons/LineHorizontal1_Filled.svelte';
 import LineHorizontal1_Regular from './icons/LineHorizontal1_Regular.svelte';
+import LineHorizontal1Dashes_Filled from './icons/LineHorizontal1Dashes_Filled.svelte';
+import LineHorizontal1Dashes_Regular from './icons/LineHorizontal1Dashes_Regular.svelte';
+import LineHorizontal2DashesSolid_Filled from './icons/LineHorizontal2DashesSolid_Filled.svelte';
+import LineHorizontal2DashesSolid_Regular from './icons/LineHorizontal2DashesSolid_Regular.svelte';
 import LineHorizontal3_Filled from './icons/LineHorizontal3_Filled.svelte';
 import LineHorizontal3_Regular from './icons/LineHorizontal3_Regular.svelte';
 import LineHorizontal4_Filled from './icons/LineHorizontal4_Filled.svelte';
@@ -2700,6 +2716,8 @@ import MicPulse_Filled from './icons/MicPulse_Filled.svelte';
 import MicPulse_Regular from './icons/MicPulse_Regular.svelte';
 import MicPulseOff_Filled from './icons/MicPulseOff_Filled.svelte';
 import MicPulseOff_Regular from './icons/MicPulseOff_Regular.svelte';
+import MicRecord_Filled from './icons/MicRecord_Filled.svelte';
+import MicRecord_Regular from './icons/MicRecord_Regular.svelte';
 import Microscope_Filled from './icons/Microscope_Filled.svelte';
 import Microscope_Regular from './icons/Microscope_Regular.svelte';
 import MicSettings_Filled from './icons/MicSettings_Filled.svelte';
@@ -3364,6 +3382,8 @@ import RectanglePortraitLocationTarget_Filled from './icons/RectanglePortraitLoc
 import RectanglePortraitLocationTarget_Regular from './icons/RectanglePortraitLocationTarget_Regular.svelte';
 import Recycle_Filled from './icons/Recycle_Filled.svelte';
 import Recycle_Regular from './icons/Recycle_Regular.svelte';
+import RemixAdd_Filled from './icons/RemixAdd_Filled.svelte';
+import RemixAdd_Regular from './icons/RemixAdd_Regular.svelte';
 import Remote_Filled from './icons/Remote_Filled.svelte';
 import Remote_Regular from './icons/Remote_Regular.svelte';
 import Rename_Filled from './icons/Rename_Filled.svelte';
@@ -4644,6 +4664,8 @@ import VideoPersonOff_Filled from './icons/VideoPersonOff_Filled.svelte';
 import VideoPersonOff_Regular from './icons/VideoPersonOff_Regular.svelte';
 import VideoPersonSparkle_Filled from './icons/VideoPersonSparkle_Filled.svelte';
 import VideoPersonSparkle_Regular from './icons/VideoPersonSparkle_Regular.svelte';
+import VideoPersonSparkleOff_Filled from './icons/VideoPersonSparkleOff_Filled.svelte';
+import VideoPersonSparkleOff_Regular from './icons/VideoPersonSparkleOff_Regular.svelte';
 import VideoPersonStar_Filled from './icons/VideoPersonStar_Filled.svelte';
 import VideoPersonStar_Regular from './icons/VideoPersonStar_Regular.svelte';
 import VideoPersonStarOff_Filled from './icons/VideoPersonStarOff_Filled.svelte';
@@ -4676,6 +4698,8 @@ import VoicemailArrowForward_Filled from './icons/VoicemailArrowForward_Filled.s
 import VoicemailArrowForward_Regular from './icons/VoicemailArrowForward_Regular.svelte';
 import VoicemailArrowSubtract_Filled from './icons/VoicemailArrowSubtract_Filled.svelte';
 import VoicemailArrowSubtract_Regular from './icons/VoicemailArrowSubtract_Regular.svelte';
+import VoicemailShield_Filled from './icons/VoicemailShield_Filled.svelte';
+import VoicemailShield_Regular from './icons/VoicemailShield_Regular.svelte';
 import VoicemailSubtract_Filled from './icons/VoicemailSubtract_Filled.svelte';
 import VoicemailSubtract_Regular from './icons/VoicemailSubtract_Regular.svelte';
 import Vote_Filled from './icons/Vote_Filled.svelte';
@@ -4986,6 +5010,8 @@ export default [
     { key: "ArrowBetweenDown_Regular", value: ArrowBetweenDown_Regular },
     { key: "ArrowBetweenUp_Filled", value: ArrowBetweenUp_Filled },
     { key: "ArrowBetweenUp_Regular", value: ArrowBetweenUp_Regular },
+    { key: "ArrowBidirectionalLeftRight_Filled", value: ArrowBidirectionalLeftRight_Filled },
+    { key: "ArrowBidirectionalLeftRight_Regular", value: ArrowBidirectionalLeftRight_Regular },
     { key: "ArrowBidirectionalUpDown_Filled", value: ArrowBidirectionalUpDown_Filled },
     { key: "ArrowBidirectionalUpDown_Regular", value: ArrowBidirectionalUpDown_Regular },
     { key: "ArrowBounce_Filled", value: ArrowBounce_Filled },
@@ -5540,6 +5566,8 @@ export default [
     { key: "BuildingHome_Regular", value: BuildingHome_Regular },
     { key: "BuildingLighthouse_Filled", value: BuildingLighthouse_Filled },
     { key: "BuildingLighthouse_Regular", value: BuildingLighthouse_Regular },
+    { key: "BuildingMosque_Filled", value: BuildingMosque_Filled },
+    { key: "BuildingMosque_Regular", value: BuildingMosque_Regular },
     { key: "BuildingMultiple_Filled", value: BuildingMultiple_Filled },
     { key: "BuildingMultiple_Regular", value: BuildingMultiple_Regular },
     { key: "BuildingPeople_Filled", value: BuildingPeople_Filled },
@@ -5830,6 +5858,8 @@ export default [
     { key: "Checkmark_Regular", value: Checkmark_Regular },
     { key: "CheckmarkCircle_Filled", value: CheckmarkCircle_Filled },
     { key: "CheckmarkCircle_Regular", value: CheckmarkCircle_Regular },
+    { key: "CheckmarkCircleSquare_Filled", value: CheckmarkCircleSquare_Filled },
+    { key: "CheckmarkCircleSquare_Regular", value: CheckmarkCircleSquare_Regular },
     { key: "CheckmarkLock_Filled", value: CheckmarkLock_Filled },
     { key: "CheckmarkLock_Regular", value: CheckmarkLock_Regular },
     { key: "CheckmarkNote_Filled", value: CheckmarkNote_Filled },
@@ -7132,6 +7162,8 @@ export default [
     { key: "HeartCircle_Regular", value: HeartCircle_Regular },
     { key: "HeartCircleHint_Filled", value: HeartCircleHint_Filled },
     { key: "HeartCircleHint_Regular", value: HeartCircleHint_Regular },
+    { key: "HeartOff_Filled", value: HeartOff_Filled },
+    { key: "HeartOff_Regular", value: HeartOff_Regular },
     { key: "HeartPulse_Filled", value: HeartPulse_Filled },
     { key: "HeartPulse_Regular", value: HeartPulse_Regular },
     { key: "HeartPulseCheckmark_Filled", value: HeartPulseCheckmark_Filled },
@@ -7140,6 +7172,10 @@ export default [
     { key: "HeartPulseError_Regular", value: HeartPulseError_Regular },
     { key: "HeartPulseWarning_Filled", value: HeartPulseWarning_Filled },
     { key: "HeartPulseWarning_Regular", value: HeartPulseWarning_Regular },
+    { key: "Hexagon_Filled", value: Hexagon_Filled },
+    { key: "Hexagon_Regular", value: Hexagon_Regular },
+    { key: "HexagonThree_Filled", value: HexagonThree_Filled },
+    { key: "HexagonThree_Regular", value: HexagonThree_Regular },
     { key: "Highlight_Filled", value: Highlight_Filled },
     { key: "Highlight_Regular", value: Highlight_Regular },
     { key: "HighlightAccent_Filled", value: HighlightAccent_Filled },
@@ -7336,6 +7372,10 @@ export default [
     { key: "LineDashes_Regular", value: LineDashes_Regular },
     { key: "LineHorizontal1_Filled", value: LineHorizontal1_Filled },
     { key: "LineHorizontal1_Regular", value: LineHorizontal1_Regular },
+    { key: "LineHorizontal1Dashes_Filled", value: LineHorizontal1Dashes_Filled },
+    { key: "LineHorizontal1Dashes_Regular", value: LineHorizontal1Dashes_Regular },
+    { key: "LineHorizontal2DashesSolid_Filled", value: LineHorizontal2DashesSolid_Filled },
+    { key: "LineHorizontal2DashesSolid_Regular", value: LineHorizontal2DashesSolid_Regular },
     { key: "LineHorizontal3_Filled", value: LineHorizontal3_Filled },
     { key: "LineHorizontal3_Regular", value: LineHorizontal3_Regular },
     { key: "LineHorizontal4_Filled", value: LineHorizontal4_Filled },
@@ -7544,6 +7584,8 @@ export default [
     { key: "MicPulse_Regular", value: MicPulse_Regular },
     { key: "MicPulseOff_Filled", value: MicPulseOff_Filled },
     { key: "MicPulseOff_Regular", value: MicPulseOff_Regular },
+    { key: "MicRecord_Filled", value: MicRecord_Filled },
+    { key: "MicRecord_Regular", value: MicRecord_Regular },
     { key: "Microscope_Filled", value: Microscope_Filled },
     { key: "Microscope_Regular", value: Microscope_Regular },
     { key: "MicSettings_Filled", value: MicSettings_Filled },
@@ -8208,6 +8250,8 @@ export default [
     { key: "RectanglePortraitLocationTarget_Regular", value: RectanglePortraitLocationTarget_Regular },
     { key: "Recycle_Filled", value: Recycle_Filled },
     { key: "Recycle_Regular", value: Recycle_Regular },
+    { key: "RemixAdd_Filled", value: RemixAdd_Filled },
+    { key: "RemixAdd_Regular", value: RemixAdd_Regular },
     { key: "Remote_Filled", value: Remote_Filled },
     { key: "Remote_Regular", value: Remote_Regular },
     { key: "Rename_Filled", value: Rename_Filled },
@@ -9488,6 +9532,8 @@ export default [
     { key: "VideoPersonOff_Regular", value: VideoPersonOff_Regular },
     { key: "VideoPersonSparkle_Filled", value: VideoPersonSparkle_Filled },
     { key: "VideoPersonSparkle_Regular", value: VideoPersonSparkle_Regular },
+    { key: "VideoPersonSparkleOff_Filled", value: VideoPersonSparkleOff_Filled },
+    { key: "VideoPersonSparkleOff_Regular", value: VideoPersonSparkleOff_Regular },
     { key: "VideoPersonStar_Filled", value: VideoPersonStar_Filled },
     { key: "VideoPersonStar_Regular", value: VideoPersonStar_Regular },
     { key: "VideoPersonStarOff_Filled", value: VideoPersonStarOff_Filled },
@@ -9520,6 +9566,8 @@ export default [
     { key: "VoicemailArrowForward_Regular", value: VoicemailArrowForward_Regular },
     { key: "VoicemailArrowSubtract_Filled", value: VoicemailArrowSubtract_Filled },
     { key: "VoicemailArrowSubtract_Regular", value: VoicemailArrowSubtract_Regular },
+    { key: "VoicemailShield_Filled", value: VoicemailShield_Filled },
+    { key: "VoicemailShield_Regular", value: VoicemailShield_Regular },
     { key: "VoicemailSubtract_Filled", value: VoicemailSubtract_Filled },
     { key: "VoicemailSubtract_Regular", value: VoicemailSubtract_Regular },
     { key: "Vote_Filled", value: Vote_Filled },
