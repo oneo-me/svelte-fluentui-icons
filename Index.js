@@ -884,6 +884,8 @@ import Cart_Filled from './icons/Cart_Filled.svelte';
 import Cart_Regular from './icons/Cart_Regular.svelte';
 import Cast_Filled from './icons/Cast_Filled.svelte';
 import Cast_Regular from './icons/Cast_Regular.svelte';
+import CastMultiple_Filled from './icons/CastMultiple_Filled.svelte';
+import CastMultiple_Regular from './icons/CastMultiple_Regular.svelte';
 import CatchUp_Filled from './icons/CatchUp_Filled.svelte';
 import CatchUp_Regular from './icons/CatchUp_Regular.svelte';
 import CD_Filled from './icons/CD_Filled.svelte';
@@ -1042,6 +1044,8 @@ import CircleHalfFill_Filled from './icons/CircleHalfFill_Filled.svelte';
 import CircleHalfFill_Regular from './icons/CircleHalfFill_Regular.svelte';
 import CircleHint_Filled from './icons/CircleHint_Filled.svelte';
 import CircleHint_Regular from './icons/CircleHint_Regular.svelte';
+import CircleHintHalfVertical_Filled from './icons/CircleHintHalfVertical_Filled.svelte';
+import CircleHintHalfVertical_Regular from './icons/CircleHintHalfVertical_Regular.svelte';
 import CircleImage_Filled from './icons/CircleImage_Filled.svelte';
 import CircleImage_Regular from './icons/CircleImage_Regular.svelte';
 import CircleLine_Filled from './icons/CircleLine_Filled.svelte';
@@ -2045,6 +2049,8 @@ import FlashPlay_Filled from './icons/FlashPlay_Filled.svelte';
 import FlashPlay_Regular from './icons/FlashPlay_Regular.svelte';
 import FlashSettings_Filled from './icons/FlashSettings_Filled.svelte';
 import FlashSettings_Regular from './icons/FlashSettings_Regular.svelte';
+import FlashSparkle_Filled from './icons/FlashSparkle_Filled.svelte';
+import FlashSparkle_Regular from './icons/FlashSparkle_Regular.svelte';
 import FlipHorizontal_Filled from './icons/FlipHorizontal_Filled.svelte';
 import FlipHorizontal_Regular from './icons/FlipHorizontal_Regular.svelte';
 import FlipVertical_Filled from './icons/FlipVertical_Filled.svelte';
@@ -2810,6 +2816,8 @@ import News_Filled from './icons/News_Filled.svelte';
 import News_Regular from './icons/News_Regular.svelte';
 import Next_Filled from './icons/Next_Filled.svelte';
 import Next_Regular from './icons/Next_Regular.svelte';
+import NextFrame_Filled from './icons/NextFrame_Filled.svelte';
+import NextFrame_Regular from './icons/NextFrame_Regular.svelte';
 import Note_Filled from './icons/Note_Filled.svelte';
 import Note_Regular from './icons/Note_Regular.svelte';
 import NoteAdd_Filled from './icons/NoteAdd_Filled.svelte';
@@ -3286,6 +3294,8 @@ import PreviewLink_Filled from './icons/PreviewLink_Filled.svelte';
 import PreviewLink_Regular from './icons/PreviewLink_Regular.svelte';
 import Previous_Filled from './icons/Previous_Filled.svelte';
 import Previous_Regular from './icons/Previous_Regular.svelte';
+import PreviousFrame_Filled from './icons/PreviousFrame_Filled.svelte';
+import PreviousFrame_Regular from './icons/PreviousFrame_Regular.svelte';
 import Print_Filled from './icons/Print_Filled.svelte';
 import Print_Regular from './icons/Print_Regular.svelte';
 import PrintAdd_Filled from './icons/PrintAdd_Filled.svelte';
@@ -4193,16 +4203,32 @@ import TextBox_Filled from './icons/TextBox_Filled.svelte';
 import TextBox_Regular from './icons/TextBox_Regular.svelte';
 import TextBoxAlignBottom_Filled from './icons/TextBoxAlignBottom_Filled.svelte';
 import TextBoxAlignBottom_Regular from './icons/TextBoxAlignBottom_Regular.svelte';
+import TextBoxAlignBottomCenter_Filled from './icons/TextBoxAlignBottomCenter_Filled.svelte';
+import TextBoxAlignBottomCenter_Regular from './icons/TextBoxAlignBottomCenter_Regular.svelte';
+import TextBoxAlignBottomLeft_Filled from './icons/TextBoxAlignBottomLeft_Filled.svelte';
+import TextBoxAlignBottomLeft_Regular from './icons/TextBoxAlignBottomLeft_Regular.svelte';
+import TextBoxAlignBottomRight_Filled from './icons/TextBoxAlignBottomRight_Filled.svelte';
+import TextBoxAlignBottomRight_Regular from './icons/TextBoxAlignBottomRight_Regular.svelte';
 import TextBoxAlignBottomRotate90_Filled from './icons/TextBoxAlignBottomRotate90_Filled.svelte';
 import TextBoxAlignBottomRotate90_Regular from './icons/TextBoxAlignBottomRotate90_Regular.svelte';
 import TextBoxAlignCenter_Filled from './icons/TextBoxAlignCenter_Filled.svelte';
 import TextBoxAlignCenter_Regular from './icons/TextBoxAlignCenter_Regular.svelte';
 import TextBoxAlignMiddle_Filled from './icons/TextBoxAlignMiddle_Filled.svelte';
 import TextBoxAlignMiddle_Regular from './icons/TextBoxAlignMiddle_Regular.svelte';
+import TextBoxAlignMiddleLeft_Filled from './icons/TextBoxAlignMiddleLeft_Filled.svelte';
+import TextBoxAlignMiddleLeft_Regular from './icons/TextBoxAlignMiddleLeft_Regular.svelte';
+import TextBoxAlignMiddleRight_Filled from './icons/TextBoxAlignMiddleRight_Filled.svelte';
+import TextBoxAlignMiddleRight_Regular from './icons/TextBoxAlignMiddleRight_Regular.svelte';
 import TextBoxAlignMiddleRotate90_Filled from './icons/TextBoxAlignMiddleRotate90_Filled.svelte';
 import TextBoxAlignMiddleRotate90_Regular from './icons/TextBoxAlignMiddleRotate90_Regular.svelte';
 import TextBoxAlignTop_Filled from './icons/TextBoxAlignTop_Filled.svelte';
 import TextBoxAlignTop_Regular from './icons/TextBoxAlignTop_Regular.svelte';
+import TextBoxAlignTopCenter_Filled from './icons/TextBoxAlignTopCenter_Filled.svelte';
+import TextBoxAlignTopCenter_Regular from './icons/TextBoxAlignTopCenter_Regular.svelte';
+import TextBoxAlignTopLeft_Filled from './icons/TextBoxAlignTopLeft_Filled.svelte';
+import TextBoxAlignTopLeft_Regular from './icons/TextBoxAlignTopLeft_Regular.svelte';
+import TextBoxAlignTopRight_Filled from './icons/TextBoxAlignTopRight_Filled.svelte';
+import TextBoxAlignTopRight_Regular from './icons/TextBoxAlignTopRight_Regular.svelte';
 import TextBoxAlignTopRotate90_Filled from './icons/TextBoxAlignTopRotate90_Filled.svelte';
 import TextBoxAlignTopRotate90_Regular from './icons/TextBoxAlignTopRotate90_Regular.svelte';
 import TextBoxMore_Filled from './icons/TextBoxMore_Filled.svelte';
@@ -5752,6 +5778,8 @@ export default [
     { key: "Cart_Regular", value: Cart_Regular },
     { key: "Cast_Filled", value: Cast_Filled },
     { key: "Cast_Regular", value: Cast_Regular },
+    { key: "CastMultiple_Filled", value: CastMultiple_Filled },
+    { key: "CastMultiple_Regular", value: CastMultiple_Regular },
     { key: "CatchUp_Filled", value: CatchUp_Filled },
     { key: "CatchUp_Regular", value: CatchUp_Regular },
     { key: "CD_Filled", value: CD_Filled },
@@ -5910,6 +5938,8 @@ export default [
     { key: "CircleHalfFill_Regular", value: CircleHalfFill_Regular },
     { key: "CircleHint_Filled", value: CircleHint_Filled },
     { key: "CircleHint_Regular", value: CircleHint_Regular },
+    { key: "CircleHintHalfVertical_Filled", value: CircleHintHalfVertical_Filled },
+    { key: "CircleHintHalfVertical_Regular", value: CircleHintHalfVertical_Regular },
     { key: "CircleImage_Filled", value: CircleImage_Filled },
     { key: "CircleImage_Regular", value: CircleImage_Regular },
     { key: "CircleLine_Filled", value: CircleLine_Filled },
@@ -6913,6 +6943,8 @@ export default [
     { key: "FlashPlay_Regular", value: FlashPlay_Regular },
     { key: "FlashSettings_Filled", value: FlashSettings_Filled },
     { key: "FlashSettings_Regular", value: FlashSettings_Regular },
+    { key: "FlashSparkle_Filled", value: FlashSparkle_Filled },
+    { key: "FlashSparkle_Regular", value: FlashSparkle_Regular },
     { key: "FlipHorizontal_Filled", value: FlipHorizontal_Filled },
     { key: "FlipHorizontal_Regular", value: FlipHorizontal_Regular },
     { key: "FlipVertical_Filled", value: FlipVertical_Filled },
@@ -7678,6 +7710,8 @@ export default [
     { key: "News_Regular", value: News_Regular },
     { key: "Next_Filled", value: Next_Filled },
     { key: "Next_Regular", value: Next_Regular },
+    { key: "NextFrame_Filled", value: NextFrame_Filled },
+    { key: "NextFrame_Regular", value: NextFrame_Regular },
     { key: "Note_Filled", value: Note_Filled },
     { key: "Note_Regular", value: Note_Regular },
     { key: "NoteAdd_Filled", value: NoteAdd_Filled },
@@ -8154,6 +8188,8 @@ export default [
     { key: "PreviewLink_Regular", value: PreviewLink_Regular },
     { key: "Previous_Filled", value: Previous_Filled },
     { key: "Previous_Regular", value: Previous_Regular },
+    { key: "PreviousFrame_Filled", value: PreviousFrame_Filled },
+    { key: "PreviousFrame_Regular", value: PreviousFrame_Regular },
     { key: "Print_Filled", value: Print_Filled },
     { key: "Print_Regular", value: Print_Regular },
     { key: "PrintAdd_Filled", value: PrintAdd_Filled },
@@ -9061,16 +9097,32 @@ export default [
     { key: "TextBox_Regular", value: TextBox_Regular },
     { key: "TextBoxAlignBottom_Filled", value: TextBoxAlignBottom_Filled },
     { key: "TextBoxAlignBottom_Regular", value: TextBoxAlignBottom_Regular },
+    { key: "TextBoxAlignBottomCenter_Filled", value: TextBoxAlignBottomCenter_Filled },
+    { key: "TextBoxAlignBottomCenter_Regular", value: TextBoxAlignBottomCenter_Regular },
+    { key: "TextBoxAlignBottomLeft_Filled", value: TextBoxAlignBottomLeft_Filled },
+    { key: "TextBoxAlignBottomLeft_Regular", value: TextBoxAlignBottomLeft_Regular },
+    { key: "TextBoxAlignBottomRight_Filled", value: TextBoxAlignBottomRight_Filled },
+    { key: "TextBoxAlignBottomRight_Regular", value: TextBoxAlignBottomRight_Regular },
     { key: "TextBoxAlignBottomRotate90_Filled", value: TextBoxAlignBottomRotate90_Filled },
     { key: "TextBoxAlignBottomRotate90_Regular", value: TextBoxAlignBottomRotate90_Regular },
     { key: "TextBoxAlignCenter_Filled", value: TextBoxAlignCenter_Filled },
     { key: "TextBoxAlignCenter_Regular", value: TextBoxAlignCenter_Regular },
     { key: "TextBoxAlignMiddle_Filled", value: TextBoxAlignMiddle_Filled },
     { key: "TextBoxAlignMiddle_Regular", value: TextBoxAlignMiddle_Regular },
+    { key: "TextBoxAlignMiddleLeft_Filled", value: TextBoxAlignMiddleLeft_Filled },
+    { key: "TextBoxAlignMiddleLeft_Regular", value: TextBoxAlignMiddleLeft_Regular },
+    { key: "TextBoxAlignMiddleRight_Filled", value: TextBoxAlignMiddleRight_Filled },
+    { key: "TextBoxAlignMiddleRight_Regular", value: TextBoxAlignMiddleRight_Regular },
     { key: "TextBoxAlignMiddleRotate90_Filled", value: TextBoxAlignMiddleRotate90_Filled },
     { key: "TextBoxAlignMiddleRotate90_Regular", value: TextBoxAlignMiddleRotate90_Regular },
     { key: "TextBoxAlignTop_Filled", value: TextBoxAlignTop_Filled },
     { key: "TextBoxAlignTop_Regular", value: TextBoxAlignTop_Regular },
+    { key: "TextBoxAlignTopCenter_Filled", value: TextBoxAlignTopCenter_Filled },
+    { key: "TextBoxAlignTopCenter_Regular", value: TextBoxAlignTopCenter_Regular },
+    { key: "TextBoxAlignTopLeft_Filled", value: TextBoxAlignTopLeft_Filled },
+    { key: "TextBoxAlignTopLeft_Regular", value: TextBoxAlignTopLeft_Regular },
+    { key: "TextBoxAlignTopRight_Filled", value: TextBoxAlignTopRight_Filled },
+    { key: "TextBoxAlignTopRight_Regular", value: TextBoxAlignTopRight_Regular },
     { key: "TextBoxAlignTopRotate90_Filled", value: TextBoxAlignTopRotate90_Filled },
     { key: "TextBoxAlignTopRotate90_Regular", value: TextBoxAlignTopRotate90_Regular },
     { key: "TextBoxMore_Filled", value: TextBoxMore_Filled },
