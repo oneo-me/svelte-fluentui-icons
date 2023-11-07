@@ -37,19 +37,13 @@
 <div class="flex flex-row justify-center space-x-6">
     <a
         class="hover:text-cyan-500 dark:hover:text-cyan-400 transition duration-100"
-        href="https://oneo.me"
-        target="_break"><Earth_Filled size="30" /></a
-    >
-    <a
-        class="hover:text-cyan-500 dark:hover:text-cyan-400 transition duration-100"
-        href="https://www.npmjs.com/package/svelte-fluentui-icons"
-        target="_break"><Cube_Filled size="30" /></a
-    >
-    <a
-        class="hover:text-cyan-500 dark:hover:text-cyan-400 transition duration-100"
         href="https://github.com/oneo-me/svelte-fluentui-icons"
         target="_break"><Github_Filled size="30" /></a
     >
+</div>
+<div class="my-5 flex flex-row justify-center space-x-2">
+    <a href="https://www.npmjs.com/package/svelte-fluentui-icons"><img alt="" src="https://badge.fury.io/js/svelte-fluentui-icons.svg"></a>
+    <a href="https://opensource.org/licenses/MIT"><img alt="" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 </div>
 <div class="my-10 flex justify-center">
     <div class="relative group">
