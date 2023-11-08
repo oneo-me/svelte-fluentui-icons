@@ -5,6 +5,6 @@
 <IconBase
     title="TeardropBottomRight_Filled"
     viewBox="0 0 20 20"
-    data="M 0 0 M 20 20 M2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10V16C18 17.1046 17.1046 18 16 18H10C5.58172 18 2 14.4183 2 10Z"
+    data="M2 10a8 8 0 1 1 16 0v6a2 2 0 0 1-2 2h-6a8 8 0 0 1-8-8Z M 0 0 M 20 20"
     {...$$props}
 />
