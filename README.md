@@ -3,6 +3,7 @@
 # Svelte Fluent UI Icons
 
 **将转移到 [fluentui-icons-like](https://github.com/oneo-me/fluentui-icons-like) 开发**
+
 **Will be moved to [fluentui-icons-like](https://github.com/oneo-me/fluentui-icons-like) development**
 
 > 基于 [fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) 开发的 Svelte 图标库，仅保留的最实用的图标大小，并优化为统一的效果
