@@ -94,19 +94,21 @@
   </div>
 
   <div
-    class="flex-1 p-4 flex flex-wrap gap-4 justify-center items-start overflow-y-auto"
+    class="flex-1 p-4 flex flex-wrap gap-4 justify-center items-start content-start overflow-y-auto"
   >
     {#each icons as icon}
       {@const CurrentIcon = icon.value}
-      <button
-        onclick={() => onClick(icon.key)}
-        class="rounded-2xl p-3
+      {#key icon.key}
+        <button
+          onclick={() => onClick(icon.key)}
+          class="rounded-2xl p-3
     bg-slate-500/5 hover:bg-slate-500/30 active:bg-slate-500/20
     dark:bg-slate-200/5 dark:hover:bg-slate-200/30 dark:active:bg-slate-200/20
      transition duration-100"
-      >
-        <CurrentIcon size={45} />
-      </button>
+        >
+          <CurrentIcon size={45} />
+        </button>
+      {/key}
     {/each}
   </div>
 
