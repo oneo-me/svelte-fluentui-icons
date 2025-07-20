@@ -5,11 +5,6 @@
       "type": "npm",
       "label": "run",
       "script": "dev"
-    },
-    {
-      "type": "npm",
-      "label": "build",
-      "script": "build"
     }
   ]
 }

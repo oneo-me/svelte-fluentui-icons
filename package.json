@@ -1,25 +1,37 @@
 {
   "name": "svelte-fluentui-icons",
-  "version": "1.4.0",
-  "description": "Fluent UI System Icons for Svelte",
+  "version": "1.4.1",
+  "description": "Fluent UI System Icons for Svelte 5",
   "author": "ONEO",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
   },
   "devDependencies": {
+    "@sveltejs/package": "^2.4.0",
     "@sveltejs/vite-plugin-svelte": "^6.1.0",
     "@tailwindcss/vite": "^4.1.11",
     "svelte": "^5.36.10",
     "tailwindcss": "^4.1.11",
     "vite": "^7.0.5"
   },
+  "exports": {
+    "./components/*.svelte": {
+      "types": "./dist/components/*.svelte.d.ts",
+      "svelte": "./dist/components/*.svelte"
+    },
+    "./icons/*.svelte": {
+      "types": "./dist/icons/*.svelte.d.ts",
+      "svelte": "./dist/icons/*.svelte"
+    }
+  },
   "files": [
-    "components/**",
-    "icons/**",
+    "dist/components/**",
+    "dist/icons/**",
     "preview.png"
   ]
 }
