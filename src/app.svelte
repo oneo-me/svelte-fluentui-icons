@@ -1,7 +1,7 @@
 <script>
   import "./app.css";
-  import Github_Filled from "../icons/Github_Filled.svelte";
-  import Search_Filled from "../icons/Search_Filled.svelte";
+  import Github_Filled from "./lib/icons/Github_Filled.svelte";
+  import Search_Filled from "./lib/icons/Search_Filled.svelte";
 
   import Icons from "../icons.js";
   import { onMount } from "svelte";
