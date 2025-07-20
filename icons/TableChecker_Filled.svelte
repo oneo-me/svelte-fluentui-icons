@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="TableChecker_Filled"
     viewBox="0 0 20 20"
     data="M7 3v4H3V5.5A2.5 2.5 0 0 1 5.5 3H7Zm5 5H8v4h4V8Zm1 5h4v1.5a2.5 2.5 0 0 1-2.5 2.5H13v-4ZM8 4h6.5A1.5 1.5 0 0 1 16 5.5V12h1V5.5A2.5 2.5 0 0 0 14.5 3H8v1ZM5.5 16H12v1H5.5A2.5 2.5 0 0 1 3 14.5V8h1v6.5A1.5 1.5 0 0 0 5.5 16Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

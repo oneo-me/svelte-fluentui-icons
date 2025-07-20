@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="ScreenCut_Filled"
     viewBox="0 0 20 20"
     data="M7.216 8.087a.497.497 0 0 0-.14.692l2.319 3.478-1.238 1.857a2 2 0 1 0 .094 3.744 2 2 0 0 0 .74-3.191l1.005-1.508 1.009 1.513a2 2 0 1 0 .832-.556l-1.24-1.859.002-.003-.601-.901-.002.003L7.91 8.228a.503.503 0 0 0-.694-.14ZM12.5 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-5 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM10.599 10.451l.6.902 1.717-2.574a.497.497 0 0 0-.14-.692.502.502 0 0 0-.695.14L10.6 10.452Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

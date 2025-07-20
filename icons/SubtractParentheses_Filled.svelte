@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="SubtractParentheses_Filled"
     viewBox="0 0 20 20"
     data="M5.765 5.069a.75.75 0 1 0-.978-1.138A7.984 7.984 0 0 0 2 10a7.984 7.984 0 0 0 2.787 6.069.75.75 0 1 0 .978-1.138A6.484 6.484 0 0 1 3.5 10c0-1.972.877-3.738 2.265-4.931Zm9.448-1.138a.75.75 0 1 0-.978 1.138A6.484 6.484 0 0 1 16.5 10a6.484 6.484 0 0 1-2.265 4.931.75.75 0 1 0 .978 1.138A7.983 7.983 0 0 0 18 10a7.983 7.983 0 0 0-2.787-6.069ZM6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

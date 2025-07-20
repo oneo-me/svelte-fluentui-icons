@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="ServerLink_Regular"
     viewBox="0 0 20 20"
     data="M7.5 5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM7 12.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm7-8V13h1V4.5A2.5 2.5 0 0 0 12.5 2h-5A2.5 2.5 0 0 0 5 4.5v11A2.5 2.5 0 0 0 7.5 18h1.837a3.476 3.476 0 0 1-.302-1H7.5A1.5 1.5 0 0 1 6 15.5v-11A1.5 1.5 0 0 1 7.5 3h5A1.5 1.5 0 0 1 14 4.5ZM9.337 15a3.51 3.51 0 0 1 .713-1H7.5a.5.5 0 0 0 0 1h1.837Zm3.163-1a2.5 2.5 0 0 0 0 5h.5a.5.5 0 0 0 0-1h-.5a1.5 1.5 0 0 1 0-3h.5a.5.5 0 0 0 0-1h-.5Zm3.5 0a.5.5 0 0 0 0 1h.5a1.5 1.5 0 0 1 0 3H16a.5.5 0 0 0 0 1h.5a2.5 2.5 0 0 0 0-5H16Zm-4 2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

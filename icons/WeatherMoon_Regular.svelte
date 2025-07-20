@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="WeatherMoon_Regular"
     viewBox="0 0 20 20"
     data="M15.493 13.497a6.981 6.981 0 0 1-11.483.892c2.831-1.087 4.558-2.42 5.593-4.397 1.048-2 1.337-4.16.76-6.909a6.981 6.981 0 0 1 5.13 10.414ZM5.457 16.918A7.981 7.981 0 1 0 9.88 2.035a.599.599 0 0 0-.614.74c.688 2.819.434 4.876-.55 6.753-.934 1.784-2.544 3.031-5.55 4.107a.599.599 0 0 0-.292.903 7.952 7.952 0 0 0 2.582 2.38Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

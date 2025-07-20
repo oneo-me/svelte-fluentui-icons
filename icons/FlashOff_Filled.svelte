@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="FlashOff_Filled"
     viewBox="0 0 20 20"
     data="m11.858 12.565 5.288 5.289a.5.5 0 0 0 .708-.708l-15-15a.5.5 0 1 0-.708.708L5.273 5.98 3.94 10.644a1.062 1.062 0 0 0 1.021 1.354H6.23l-1.17 4.68c-.264 1.055 1.04 1.777 1.795.995l5.004-5.108Zm3.673-3.75-2.274 2.321L5.901 3.78l.289-1.01C6.32 2.315 6.737 2 7.21 2h5.25c.724 0 1.236.71 1.007 1.398l-.002.008L12.204 7h2.564c.946 0 1.407 1.144.766 1.811l-.003.004Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

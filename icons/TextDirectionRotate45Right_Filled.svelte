@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="TextDirectionRotate45Right_Filled"
     viewBox="0 0 20 20"
     data="M17.25 8a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 1 1 0-1.5h.69l-2.22-2.22a.75.75 0 0 1 1.06-1.06l2.22 2.22v-.69a.75.75 0 0 1 .75-.75Zm-3.83-4.915a.75.75 0 0 0-1.005-1.006l-8 4a.75.75 0 1 0 .671 1.342L7.27 6.329l1.902 1.902-1.092 2.183a.75.75 0 1 0 1.342.671l4-8ZM9.879 6.817 8.683 5.622l2.39-1.195-1.195 2.39ZM12 14.749a.75.75 0 0 0-1.5 0v.69L3.28 8.22A.75.75 0 1 0 2.22 9.28l7.22 7.22h-.69a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 .75-.75v-2.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

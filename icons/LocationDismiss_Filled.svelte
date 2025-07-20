@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="LocationDismiss_Filled"
     viewBox="0 0 20 20"
     data="M14.95 4.051a7.005 7.005 0 0 1 0 9.904l-1.128 1.114-2.436 2.37a1.993 1.993 0 0 1-2.64.118l-.132-.118-2.043-1.985-1.52-1.499a7.005 7.005 0 0 1 0-9.904 6.998 6.998 0 0 1 9.899 0ZM7.146 6.146a.5.5 0 0 0 0 .708L9.293 9l-2.147 2.146a.5.5 0 0 0 .708.708L10 9.707l2.146 2.147a.5.5 0 0 0 .708-.708L10.707 9l2.147-2.146a.5.5 0 0 0-.708-.708L10 8.293 7.854 6.146a.5.5 0 0 0-.708 0Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

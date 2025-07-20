@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="CalendarEye_Regular"
     viewBox="0 0 20 20"
     data="M14.5 3A2.5 2.5 0 0 1 17 5.5v6.067a5.743 5.743 0 0 0-1-.371V7H4v7.5A1.5 1.5 0 0 0 5.5 16h3.552c.066.331.193.67.368 1H5.5A2.5 2.5 0 0 1 3 14.5v-9A2.5 2.5 0 0 1 5.5 3h9Zm0 1h-9A1.5 1.5 0 0 0 4 5.5V6h12v-.5A1.5 1.5 0 0 0 14.5 4Zm0 8c-2.764 0-4.5 2.318-4.5 3.5 0 1.2 1.739 3.5 4.5 3.5s4.5-2.318 4.5-3.5c0-1.2-1.739-3.5-4.5-3.5Zm0 6a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm1.5-2.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

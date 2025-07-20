@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="BubbleMultiple_Regular"
     viewBox="0 0 20 20"
     data="M15.5 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM12 4.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM3 10a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm4-5a5 5 0 1 0 0 10A5 5 0 0 0 7 5Zm5.499 12.999a3.502 3.502 0 0 1-3.325-2.405c.317-.123.621-.273.91-.446a2.501 2.501 0 1 0 2.573-3.144 5.95 5.95 0 0 0 .256-.98 3.5 3.5 0 0 1-.414 6.975ZM7.667 7.2a.5.5 0 1 0-.334.943c.71.251 1.274.814 1.525 1.524a.5.5 0 1 0 .942-.334A3.508 3.508 0 0 0 7.667 7.2Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

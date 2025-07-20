@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="TextGrammarLightning_Filled"
     viewBox="0 0 20 20"
     data="M2 5.75A.75.75 0 0 1 2.75 5h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 5.75Zm0 3A.75.75 0 0 1 2.75 8h10.835a1.5 1.5 0 0 0-1.385.923l-.24.577H2.75A.75.75 0 0 1 2 8.75ZM10.087 14a1.494 1.494 0 0 0 .296 1.5H2.75a.75.75 0 0 1 0-1.5h7.337Zm.623-1.5H2.75a.75.75 0 0 1 0-1.5h8.585l-.625 1.5Zm.792 2.5h1.75l-.59 2.36c-.12.482.463.826.827.486l4.872-4.548A.75.75 0 0 0 17.85 12h-1.098l.781-2.342A.5.5 0 0 0 17.06 9h-3.473a.5.5 0 0 0-.462.308l-2.083 5a.5.5 0 0 0 .461.692Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

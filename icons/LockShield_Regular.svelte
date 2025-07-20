@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="LockShield_Regular"
     viewBox="0 0 20 20"
     data="M10 13v-.806c0-.444.19-.816.471-1.076A1 1 0 1 0 10 13Zm-4 4h4.576c.19.374.416.706.66 1H6a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h1V5a3 3 0 0 1 6 0v1h1a3 3 0 0 1 3 3v1.507a4.316 4.316 0 0 1-1-.661V9a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2Zm4-14a2 2 0 0 0-2 2v1h4V5a2 2 0 0 0-2-2Zm4.88 7.16c.508.532 1.484 1.379 2.684 1.552a.5.5 0 0 1 .436.482v2.323c0 3.122-2.784 4.255-3.386 4.463a.34.34 0 0 1-.228 0C13.785 18.772 11 17.64 11 14.517v-2.323a.5.5 0 0 1 .436-.482c1.2-.173 2.175-1.02 2.683-1.553a.535.535 0 0 1 .762 0Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

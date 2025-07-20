@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="ArrowSortDownLines_Regular"
     viewBox="0 0 20 20"
     data="m7.21 15.29 2.644-2.644a.5.5 0 0 1 .707.707L7.093 16.82a.5.5 0 0 1-.384.179h-.001a.5.5 0 0 1-.354-.147l-.01-.01-3.49-3.49a.5.5 0 1 1 .707-.707l2.648 2.649V3.5a.5.5 0 0 1 1 0v11.79ZM9.5 4a.5.5 0 0 0 0 1h7a.5.5 0 1 0 0-1h-7Zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 1 0 0-1h-5Zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 1 0 0-1h-2Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

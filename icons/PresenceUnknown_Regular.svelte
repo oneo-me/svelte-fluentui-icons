@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="PresenceUnknown_Regular"
     viewBox="0 0 20 20"
     data="M9.997 2a7.997 7.997 0 1 0 0 15.995A7.997 7.997 0 0 0 9.997 2ZM0 9.997C0 4.476 4.476 0 9.997 0c5.522 0 9.998 4.476 9.998 9.997 0 5.522-4.476 9.998-9.998 9.998C4.476 19.995 0 15.519 0 9.997Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

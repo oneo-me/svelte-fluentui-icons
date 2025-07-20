@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="VideoClipOptimize_Filled"
     viewBox="0 0 20 20"
     data="M3 6.5A3.5 3.5 0 0 1 6.5 3a.5.5 0 0 0 0-1A4.5 4.5 0 0 0 2 6.5a.5.5 0 0 0 1 0ZM4 7a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7Zm2.5 10A3.5 3.5 0 0 1 3 13.5a.5.5 0 0 0-1 0A4.5 4.5 0 0 0 6.5 18a.5.5 0 0 0 0-1ZM17 6.5A3.5 3.5 0 0 0 13.5 3a.5.5 0 0 1 0-1A4.5 4.5 0 0 1 18 6.5a.5.5 0 0 1-1 0ZM13.5 17a3.5 3.5 0 0 0 3.5-3.5.5.5 0 0 1 1 0 4.5 4.5 0 0 1-4.5 4.5.5.5 0 0 1 0-1ZM8.258 7.063A.5.5 0 0 0 8 7.5v5.15a.5.5 0 0 0 .776.417l4-2.649a.5.5 0 0 0-.01-.84l-4-2.502a.5.5 0 0 0-.508-.013Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

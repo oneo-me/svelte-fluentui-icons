@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="Pipeline_Regular"
     viewBox="0 0 20 20"
     data="M2 5.5a1.5 1.5 0 1 1 3 0V6h10v-.5a1.5 1.5 0 0 1 3 0v9a1.5 1.5 0 0 1-3 0V14H5v.5a1.5 1.5 0 0 1-3 0v-9Zm2 0a.5.5 0 0 0-1 0v9a.5.5 0 0 0 1 0v-9ZM15 7H5v6h10V7Zm2-1.5a.5.5 0 0 0-1 0v9a.5.5 0 0 0 1 0v-9Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

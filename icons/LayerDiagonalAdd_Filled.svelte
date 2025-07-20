@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="LayerDiagonalAdd_Filled"
     viewBox="0 0 20 20"
     data="M9.447 2.106a1.5 1.5 0 0 1 2.05 1.302L5.42 5.814A2.25 2.25 0 0 0 4 7.906v6.006a1.5 1.5 0 0 1-2-1.415V6.755A2.5 2.5 0 0 1 3.58 4.43l5.867-2.324Zm3 2a1.5 1.5 0 0 1 2.052 1.395v.103L9.264 7.678A2 2 0 0 0 8 9.538v5.979l-.947.375A1.5 1.5 0 0 1 5 14.498V8.415a2 2 0 0 1 1.264-1.86l6.183-2.448ZM18 7.5v3.1a5.5 5.5 0 0 0-7.401 7.398A1.502 1.502 0 0 1 9 16.5V9.877a1.5 1.5 0 0 1 .948-1.395l6-2.376A1.5 1.5 0 0 1 18 7.5Zm2 8a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-4-2a.5.5 0 0 0-1 0V15h-1.5a.5.5 0 0 0 0 1H15v1.5a.5.5 0 0 0 1 0V16h1.5a.5.5 0 0 0 0-1H16v-1.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

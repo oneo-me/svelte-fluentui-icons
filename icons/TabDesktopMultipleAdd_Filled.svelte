@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="TabDesktopMultipleAdd_Filled"
     viewBox="0 0 20 20"
     data="M2 4.5A2.5 2.5 0 0 1 4.5 2H6v2.5A1.5 1.5 0 0 0 7.5 6H15v6.5a2.5 2.5 0 0 1-2.5 2.5h-1.522A5.5 5.5 0 0 0 2 10.257V4.5ZM10.793 16a5.486 5.486 0 0 1-1.05 2H14a4 4 0 0 0 4-4V7.5a2.5 2.5 0 0 0-2-2.45v7.45a3.5 3.5 0 0 1-3.5 3.5h-1.707ZM7 4.5V2h5.5A2.5 2.5 0 0 1 15 4.5V5H7.5a.5.5 0 0 1-.5-.5Zm3 10a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-4-2a.5.5 0 0 0-1 0V14H3.5a.5.5 0 0 0 0 1H5v1.5a.5.5 0 0 0 1 0V15h1.5a.5.5 0 0 0 0-1H6v-1.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

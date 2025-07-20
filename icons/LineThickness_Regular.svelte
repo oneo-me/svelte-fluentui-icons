@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="LineThickness_Regular"
     viewBox="0 0 20 20"
     data="M2 4.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1h-15a.5.5 0 0 1-.5-.5Zm0 10A1.5 1.5 0 0 1 3.5 13h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 2 14.5ZM3 8a1 1 0 0 0 0 2h14a1 1 0 1 0 0-2H3Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

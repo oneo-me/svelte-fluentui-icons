@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="TriangleDown_Regular"
     viewBox="0 0 20 20"
     data="M8.682 17.215c.567 1.047 2.07 1.047 2.637 0l6.5-12A1.5 1.5 0 0 0 16.5 3.003H3.501a1.5 1.5 0 0 0-1.319 2.214l6.5 11.998Zm1.758-.477a.5.5 0 0 1-.879 0L3.061 4.74A.5.5 0 0 1 3.501 4H16.5a.5.5 0 0 1 .44.739l-6.5 11.998Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />

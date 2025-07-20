@@ -1,10 +1,11 @@
 ﻿<script>
-    import IconBase from "../components/IconBase.svelte";
+  import IconBase from "../components/icon-base.svelte";
+  let { ...others } = $props();
 </script>
 
 <IconBase
     title="ChatLock_Filled"
     viewBox="0 0 20 20"
     data="M18 10a8 8 0 1 0-16 0l.007.346.026.382a7.95 7.95 0 0 0 .829 2.887l.063.12-.91 3.644-.014.083v.082a.5.5 0 0 0 .62.441l3.645-.91.12.064a7.968 7.968 0 0 0 4.614.8V14a2 2 0 0 1 1.5-1.937V12a3 3 0 0 1 5.493-1.669c.005-.11.007-.22.007-.331Zm-4.5 2v1H13a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-.5v-1a2 2 0 1 0-4 0Zm1 1v-1a1 1 0 1 1 2 0v1h-2Zm1 2.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z M 0 0 M 20 20"
-    {...$$props}
+    {...others}
 />
