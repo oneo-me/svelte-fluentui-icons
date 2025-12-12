@@ -2,9 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
+      "type": "shell",
       "label": "run",
-      "script": "dev"
+      "command": "bun",
+      "args": ["run", "dev"]
+    },
+    {
+      "type": "shell",
+      "label": "build",
+      "command": "bun",
+      "args": ["run", "build"]
     }
   ]
 }
