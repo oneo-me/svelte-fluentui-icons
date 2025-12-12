@@ -1,6 +1,3 @@
 name = "svelte-fluentui-icons"
 compatibility_date = "2025-12-12"
 compatibility_flags = ["nodejs_compat"]
-
-[site]
-bucket = "./dist"
